@@ -1,0 +1,321 @@
+// Card removal NPC by TyrNemesis^
+// DANGEROUS! TODO: Think.. think 8) [Lupus]
+// Transelated By Memory.
+
+
+prontera.gat,164,106,4	script	一键大师	709,{
+
+UPGRADEROOT:
+	mes "[一键大师]";
+	mes "你好啊~~年轻人. 我可以帮你一步登天, 但你需要付出点代价";
+	mes "确认即扣钱，没有回头路！";
+	next;
+	menu "一键满状态（-1W）",TO_ALL_STATUS,
+		 "一键超强状态（-10W）",TO_SUPER_STATUS,
+		 "一键全身鉴定（-1W）",TO_IDENTITY,
+		 "一键全身修复（-10W）",TO_REPAIRE,
+		 "一键精炼+10（-1000W）",TO_REFINE_10,
+		 "一键精炼+15（-5000W）",TO_REFINE_15,
+		 "一键精炼+20（-1E）",TO_REFINE_20,
+		 "一键破产（0Z）",TO_BANKRUPTCY,
+		 "一键自杀（+444Z）",TO_KILL_SELF,
+		 "一键暗杀（-100W）",TO_KILL_OTHER,
+		 "一键卖垃圾（-1W）",TO_DO,
+		 "一键丢弃所有道具（-100Z）",TO_DO,
+		 "不,我想不劳而获.",TO_CLOSE;
+
+
+TO_IDENTITY:
+	set @money,10000;
+	if(zeny >= @money) {
+		set zeny,(zeny - @money);
+		callfunc("F_IDENTIFY_ALL");
+		goto TO_CLOSE;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_REPAIRE:
+	set @money,100000;
+	if(zeny >= @money) {
+		set zeny,(zeny - @money);
+		repairall;
+		goto TO_CLOSE;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_ALL_STATUS:
+	set @money,10000;
+	if(zeny >= @money) {
+		set zeny,(zeny - @money);
+
+		percentheal 100,100;												// 满 HP/SP
+		skilleffect "AL_BLESSING",0; sc_start SC_BLESSING,600000,10;		// 天使之赐福
+		skilleffect "AL_INCAGI",0; sc_start SC_INCREASEAGI,600000,10;		// 加速术
+		skilleffect "AL_ANGELUS",0; sc_start SC_ANGELUS,600000,10;			// 天使之障壁
+		skilleffect "SC_IMPOSITIO",0; sc_start SC_IMPOSITIO,600000,5;		// 神威祈福
+		skilleffect "HP_ASSUMPTIO",0; sc_start SC_ASSUMPTIO,600000,5;		// 圣母之祈福
+		skilleffect "PR_MAGNIFICAT",0; sc_start SC_MAGNIFICAT,600000,3;		// 圣母之颂歌
+		skilleffect "AM_CP_WEAPON",0; sc_start SC_CP_WEAPON,600000,10;		// 化学武器保护
+		skilleffect "AM_CP_SHIELD",0; sc_start SC_CP_SHIELD,600000,10;		// 化学盾牌保护
+		skilleffect "AM_CP_ARMOR",0; sc_start SC_CP_ARMOR,600000,10;		// 化学盔甲保护
+		skilleffect "AM_CP_HELM",0; sc_start SC_CP_HELM,600000,10;			// 化学头盔保护
+		sc_start SC_SUFFRAGIUM,600000,3;									// 牺牲祈福
+		sc_start SC_KYRIE,600000,10;										// 霸邪之阵
+		sc_start SC_GLORIA,600000,5;										// 幸运之颂歌
+		sc_start SC_ASPDPOTION2,600000,10;									// 菠色克药水
+
+		goto TO_CLOSE;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_SUPER_STATUS:
+	set @money,100000;
+	if(zeny >= @money) {
+		set zeny,(zeny - @money);
+
+		percentheal 100,100;												// 满 HP/SP
+		skilleffect "AL_BLESSING",0; sc_start SC_BLESSING,600000,10;		// 天使之赐福
+		skilleffect "AL_INCAGI",0; sc_start SC_SPEEDUP1,600000,10;			// 移动速度提升状态1(比加速术更快)
+		skilleffect "AL_ANGELUS",0; sc_start SC_ANGELUS,600000,10;			// 天使之障壁
+		skilleffect "SC_IMPOSITIO",0; sc_start SC_IMPOSITIO,600000,5;		// 神威祈福
+		skilleffect "HP_ASSUMPTIO",0; sc_start SC_ASSUMPTIO,600000,5;		// 圣母之祈福
+		skilleffect "PR_MAGNIFICAT",0; sc_start SC_MAGNIFICAT,600000,3;		// 圣母之颂歌
+		skilleffect "AM_CP_WEAPON",0; sc_start SC_CP_WEAPON,600000,10;		// 化学武器保护
+		skilleffect "AM_CP_SHIELD",0; sc_start SC_CP_SHIELD,600000,10;		// 化学盾牌保护
+		skilleffect "AM_CP_ARMOR",0; sc_start SC_CP_ARMOR,600000,10;		// 化学盔甲保护
+		skilleffect "AM_CP_HELM",0; sc_start SC_CP_HELM,600000,10;			// 化学头盔保护
+		sc_start SC_SUFFRAGIUM,600000,3;									// 牺牲祈福
+		sc_start SC_KYRIE,600000,10;										// 霸邪之阵
+		sc_start SC_GLORIA,600000,5;										// 幸运之颂歌
+		sc_start SC_ASPDPOTION3,600000,10;									// 攻击加速状态3(比菠色克更快，例如刺客吃毒药)
+
+		skilleffect "SN_WINDWALK",0; sc_start SC_WINDWALK,600000,5;			// 风之步
+		sc_start SC_HALLUCINATIONWALK,600000,1;								// 幻影步
+		sc_start SC_ADRENALINE,600000,5;									// 速度激发
+		sc_start SC_WEAPONPERFECTION,600000,5;								// 无视体型
+		sc_start SC_MAXIMIZEPOWER,600000,5;									// 武器值最大化
+		sc_start SC_ENDURE,600000,10;										// 霸体
+		sc_start SC_LOUD,600000,1;											// 大声呐喊
+		sc_start SC_ENERGYCOAT,600000,1;									// 能量外套
+		sc_start SC_AUTOGUARD,600000,10;									// 自动防御
+		sc_start SC_RUWACH,600000,1;										// 光猎
+		sc_start SC_KAUPE,600000,3;											// 物理攻击回避一次(凯诬仆)
+		sc_start SC_KAIZEL,600000,7;										// 可立即复活(凯易哲)
+		
+		goto TO_CLOSE;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_REFINE_10:
+	set @money,10000000;
+	if(zeny >= @money) {
+		set @refine_num,10;
+		goto TO_SELECT;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_REFINE_15:
+	set @money,50000000;
+	if(zeny >= @money) {
+		set @refine_num,15;
+		goto TO_SELECT;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_REFINE_20:
+	set @money,100000000;
+	if(zeny >= @money) {
+		set @refine_num,20;
+		goto TO_SELECT;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_SELECT:
+	mes "[一键大师]";
+	mes "啊咧咧，你想精炼哪件装备?";
+	next;
+	menu "emmm, 算了...",TO_CLOSE,
+		 getequipname(0),SLOT00,
+	     getequipname(1),SLOT01,
+	     getequipname(2),SLOT02,
+	     getequipname(3),SLOT03,
+	     getequipname(4),SLOT04,
+	     getequipname(5),SLOT05,
+	     getequipname(6),SLOT06,
+	     getequipname(7),SLOT07,
+	     getequipname(8),SLOT08,
+	     getequipname(9),SLOT09;
+
+
+SLOT00:
+	set @slot,0;	// 装饰品-右
+	goto TO_REFINE;
+
+SLOT01:
+	set @slot,1;	// 装饰品-左
+	goto TO_REFINE;
+
+SLOT02:
+	set @slot,2;	// 鞋子
+	goto TO_REFINE;
+
+SLOT03:
+	set @slot,3;	// 披风
+	goto TO_REFINE;
+
+SLOT04:
+	set @slot,4;	// 头-下
+	goto TO_REFINE;
+
+SLOT05:
+	set @slot,5;	// 头-中
+	goto TO_REFINE;
+
+SLOT06:
+	set @slot,6;	// 头-上
+	goto TO_REFINE;
+
+SLOT07:
+	set @slot,7;	// 衣服
+	goto TO_REFINE;
+
+SLOT08:
+	set @slot,8;	// 左手
+	goto TO_REFINE;
+
+SLOT09:
+	set @slot,9;	// 右手
+	goto TO_REFINE;
+
+
+TO_REFINE:
+	mes "[一键大师]";
+	set @cur_refine,getequiprefinerycnt(@slot);
+	set @refine_count,(@refine_num - @cur_refine);
+
+	if(@refine_count <= 0) {
+		mes "你TM逗我呢，这件已经[+" + @cur_refine + "]啦！信不信我把它砸烂...";
+
+	} else {
+		set zeny,(zeny - @money);
+		successrefitem @slot,@refine_count;
+		mes "已经可以了，跪安吧，渣渣~";
+	}
+	next;
+	goto TO_CLOSE;
+
+
+TO_BANKRUPTCY:
+	mes "[一键大师]";
+	mes "我会没收你身上所有钱，你确定?";
+	next;
+	menu "emmm, 算了...",TO_CLOSE,
+		 "我人傻钱多",_TO_BANKRUPTCY;
+
+_TO_BANKRUPTCY:
+	set zeny,0;
+	mes "[一键大师]";
+	mes "嘿嘿~ 傻仔~";
+	next;
+	goto TO_CLOSE;
+
+
+TO_KILL_SELF:
+//	atcommand "@kill";		// 没有特效
+
+	set @player_name$,strcharinfo(0);
+	atcommand("@nuke " + @player_name$);
+
+	set zeny,(zeny + 444);
+	mes "[一键大师]";
+	mes "你已经死了,冥币拿好";
+	end;
+	close;
+
+
+TO_KILL_OTHER:
+	set @money,1000000;
+	set @money_tips,100000;
+	if(zeny >= @money) {
+		mes "[一键大师]";
+		mes "提醒你：";
+		mes "佣金的八成将会转到目标人物的账号！";
+		mes "这是避免引起麻烦而给他的敛葬费！";
+		next;
+
+		mes "[一键大师]";
+		mes "把他的名字写入 [死亡笔记] 吧！";
+		mes "一个字也不能错！";
+		mes "同时你必须想象着他的样子！";
+		mes "不然可能会失效或者杀错人！";
+
+		input @player_name$;
+		next;
+		mes "[一键大师]";
+
+		set @succ_rate,rand(100);
+		if(@succ_rate < 40) {
+			mes "暗杀失败！";
+			mes "你想象力不太够哦！";
+			mes "但我依然会收取 10% 的服务费！";
+
+			set zeny,(zeny - @money_tips);
+
+		} else {
+			mes "暗杀成功！";
+			mes "[" + @player_name$ + "] 已经 poorguy 了！";
+			mes "我会做好善后工作";
+
+			set zeny,(zeny - @money);
+			charcommand("#zeny " + @player_name$ + " 800000");
+			atcommand("@nuke " + @player_name$);
+		}
+
+		end;
+		close;
+
+	} else {
+		goto NO_ZENY;
+	}
+
+
+TO_DO:
+	mes "[一键大师]";
+	mes "此功能正在开发中...";
+	next;
+	goto TO_CLOSE;
+
+
+NO_ZENY:
+	mes "[一键大师]";
+	mes "穷鬼滚远点";
+	close;
+
+
+TO_CLOSE:
+	mes "[一键大师]";
+	mes "OJBK,滚吧";
+	close;
+
+}

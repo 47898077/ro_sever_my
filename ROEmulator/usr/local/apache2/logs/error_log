@@ -1,0 +1,93 @@
+[Fri Aug 28 03:28:36 2020] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Fri Aug 28 03:28:36 2020] [notice] Server built: Jun 13 2008 04:04:59
+[Fri Aug 28 03:28:36 2020] [notice] Parent: Created child process 1464
+[Fri Aug 28 03:28:36 2020] [notice] Child 1464: Child process is running
+[Fri Aug 28 03:28:36 2020] [notice] Child 1464: Acquired the start mutex.
+[Fri Aug 28 03:28:36 2020] [notice] Child 1464: Starting 64 worker threads.
+[Fri Aug 28 03:28:36 2020] [notice] Child 1464: Starting thread to listen on port 8096.
+[Fri Aug 28 03:59:18 2020] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Fri Aug 28 03:59:18 2020] [notice] Server built: Jun 13 2008 04:04:59
+[Fri Aug 28 03:59:18 2020] [notice] Parent: Created child process 1356
+[Fri Aug 28 03:59:18 2020] [notice] Child 1356: Child process is running
+[Fri Aug 28 03:59:18 2020] [notice] Child 1356: Acquired the start mutex.
+[Fri Aug 28 03:59:18 2020] [notice] Child 1356: Starting 64 worker threads.
+[Fri Aug 28 03:59:18 2020] [notice] Child 1356: Starting thread to listen on port 8096.
+[Tue Sep 08 03:29:00 2020] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Tue Sep 08 03:29:00 2020] [notice] Server built: Jun 13 2008 04:04:59
+[Tue Sep 08 03:29:00 2020] [notice] Parent: Created child process 7632
+[Tue Sep 08 03:29:00 2020] [notice] Child 7632: Child process is running
+[Tue Sep 08 03:29:00 2020] [notice] Child 7632: Acquired the start mutex.
+[Tue Sep 08 03:29:00 2020] [notice] Child 7632: Starting 64 worker threads.
+[Tue Sep 08 03:29:00 2020] [notice] Child 7632: Starting thread to listen on port 8096.
+[Fri Feb 18 00:24:25 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Fri Feb 18 00:24:26 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Fri Feb 18 00:24:26 2022] [notice] Parent: Created child process 2656
+[Fri Feb 18 00:24:26 2022] [notice] Child 2656: Child process is running
+[Fri Feb 18 00:24:26 2022] [notice] Child 2656: Acquired the start mutex.
+[Fri Feb 18 00:24:26 2022] [notice] Child 2656: Starting 64 worker threads.
+[Fri Feb 18 00:24:26 2022] [notice] Child 2656: Starting thread to listen on port 8096.
+[Fri Feb 18 00:28:45 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Fri Feb 18 00:28:45 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Fri Feb 18 00:28:45 2022] [notice] Parent: Created child process 6756
+[Fri Feb 18 00:28:45 2022] [notice] Child 6756: Child process is running
+[Fri Feb 18 00:28:45 2022] [notice] Child 6756: Acquired the start mutex.
+[Fri Feb 18 00:28:45 2022] [notice] Child 6756: Starting 64 worker threads.
+[Fri Feb 18 00:28:45 2022] [notice] Child 6756: Starting thread to listen on port 8096.
+[Fri Feb 18 03:49:51 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Fri Feb 18 03:49:51 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Fri Feb 18 03:49:51 2022] [notice] Parent: Created child process 2448
+[Fri Feb 18 03:49:51 2022] [notice] Child 2448: Child process is running
+[Fri Feb 18 03:49:51 2022] [notice] Child 2448: Acquired the start mutex.
+[Fri Feb 18 03:49:51 2022] [notice] Child 2448: Starting 64 worker threads.
+[Fri Feb 18 03:49:51 2022] [notice] Child 2448: Starting thread to listen on port 8096.
+[Sat Feb 19 16:06:41 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Sat Feb 19 16:06:41 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Feb 19 16:06:41 2022] [notice] Parent: Created child process 7044
+[Sat Feb 19 16:06:41 2022] [notice] Child 7044: Child process is running
+[Sat Feb 19 16:06:41 2022] [notice] Child 7044: Acquired the start mutex.
+[Sat Feb 19 16:06:41 2022] [notice] Child 7044: Starting 64 worker threads.
+[Sat Feb 19 16:06:41 2022] [notice] Child 7044: Starting thread to listen on port 8096.
+[Sun Feb 20 04:34:28 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Sun Feb 20 04:34:28 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Feb 20 04:34:28 2022] [notice] Parent: Created child process 8076
+[Sun Feb 20 04:34:28 2022] [notice] Child 8076: Child process is running
+[Sun Feb 20 04:34:28 2022] [notice] Child 8076: Acquired the start mutex.
+[Sun Feb 20 04:34:28 2022] [notice] Child 8076: Starting 64 worker threads.
+[Sun Feb 20 04:34:28 2022] [notice] Child 8076: Starting thread to listen on port 8096.
+[Sun Feb 20 05:05:28 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Sun Feb 20 05:05:28 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Feb 20 05:05:28 2022] [notice] Parent: Created child process 8852
+[Sun Feb 20 05:05:29 2022] [notice] Child 8852: Child process is running
+[Sun Feb 20 05:05:29 2022] [notice] Child 8852: Acquired the start mutex.
+[Sun Feb 20 05:05:29 2022] [notice] Child 8852: Starting 64 worker threads.
+[Sun Feb 20 05:05:29 2022] [notice] Child 8852: Starting thread to listen on port 8096.
+[Tue Feb 22 17:01:06 2022] [notice] Parent: child process exited with status 1 -- Restarting.
+[Tue Feb 22 17:01:07 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 22 17:01:07 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Tue Feb 22 17:01:07 2022] [notice] Parent: Created child process 6820
+[Tue Feb 22 17:01:07 2022] [notice] Child 6820: Child process is running
+[Tue Feb 22 17:01:07 2022] [notice] Child 6820: Acquired the start mutex.
+[Tue Feb 22 17:01:07 2022] [notice] Child 6820: Starting 64 worker threads.
+[Tue Feb 22 17:01:07 2022] [notice] Child 6820: Starting thread to listen on port 8096.
+[Tue Feb 22 17:01:09 2022] [notice] Parent: child process exited with status 1 -- Restarting.
+[Tue Feb 22 17:01:09 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 22 17:01:09 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Tue Feb 22 17:01:09 2022] [notice] Parent: Created child process 1040
+[Tue Feb 22 17:01:09 2022] [notice] Child 1040: Child process is running
+[Tue Feb 22 17:01:09 2022] [notice] Child 1040: Acquired the start mutex.
+[Tue Feb 22 17:01:09 2022] [notice] Child 1040: Starting 64 worker threads.
+[Tue Feb 22 17:01:09 2022] [notice] Child 1040: Starting thread to listen on port 8096.
+[Tue Feb 22 17:04:00 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 22 17:04:00 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Tue Feb 22 17:04:00 2022] [notice] Parent: Created child process 4960
+[Tue Feb 22 17:04:00 2022] [notice] Child 4960: Child process is running
+[Tue Feb 22 17:04:00 2022] [notice] Child 4960: Acquired the start mutex.
+[Tue Feb 22 17:04:00 2022] [notice] Child 4960: Starting 64 worker threads.
+[Tue Feb 22 17:04:00 2022] [notice] Child 4960: Starting thread to listen on port 8096.
+[Tue Feb 22 18:04:27 2022] [notice] Apache/2.2.9 (Win32) PHP/5.2.6 configured -- resuming normal operations
+[Tue Feb 22 18:04:27 2022] [notice] Server built: Jun 13 2008 04:04:59
+[Tue Feb 22 18:04:27 2022] [notice] Parent: Created child process 5568
+[Tue Feb 22 18:04:27 2022] [notice] Child 5568: Child process is running
+[Tue Feb 22 18:04:27 2022] [notice] Child 5568: Acquired the start mutex.
+[Tue Feb 22 18:04:27 2022] [notice] Child 5568: Starting 64 worker threads.
+[Tue Feb 22 18:04:27 2022] [notice] Child 5568: Starting thread to listen on port 8096.

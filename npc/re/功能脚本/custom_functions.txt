@@ -1,0 +1,290 @@
+//===== rAthena Script ======================================= 
+
+
+// 获取当前玩家 ID
+//============================================================ 
+// - param: 无参数
+// - return: 玩家 ID
+function	script	F_PLAYER_ID	{
+	set @player_id$, getcharid(0);
+	return @player_id$;
+}
+
+// 获取当前玩家名称
+//============================================================ 
+// - param: 无参数
+// - return: 玩家名称
+function	script	F_PLAYER_NAME	{
+	set @player_name$,strcharinfo(0);
+	return @player_name$;
+}
+
+// 获取当前玩家权限
+//============================================================ 
+// - param: 无参数
+// - return: 玩家权限值（group_id）
+function	script	F_PLAYER_GMLV	{
+	set @player_gmlv,getgmlevel();
+	return @player_gmlv;
+}
+
+// 查看角色可用命令
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_COMMANDS	{
+	atcommand("@commands");
+	return;
+}
+
+// 全身一键鉴定
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_IDENTIFY_ALL	{
+	identifyall(true);
+	return;
+}
+
+// 查看在线人数
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_ONLINE	{
+	atcommand "@who";
+	return;
+}
+
+// 查看当前坐标
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_WHERE	{
+	set @rst$,callfunc("F_PLAYER_NAME");
+	atcommand("@where " + @rst$);
+	return;
+}
+
+// 查看服务器倍率
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_SERVER_RATES	{
+	atcommand("@rates");
+	return;
+}
+
+// 开/关自动拾取
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_AUTOLOOT	{
+	atcommand("@autoloot 99");
+	return;
+}
+
+// 开/关自动战斗
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_AUTOATTACK	{
+	atcommand("@autoattack");
+	return;
+}
+
+
+// 满Buff
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_ALL_STATUS	{
+		percentheal 100,100;												// 满 HP/SP
+		skilleffect "AL_BLESSING",0; sc_start SC_BLESSING,600000,10;		// 天使之赐福
+		skilleffect "AL_INCAGI",0; sc_start SC_INCREASEAGI,600000,10;		// 加速术
+		skilleffect "AL_ANGELUS",0; sc_start SC_ANGELUS,600000,10;			// 天使之障壁
+		skilleffect "SC_IMPOSITIO",0; sc_start SC_IMPOSITIO,600000,5;		// 神威祈福
+		skilleffect "HP_ASSUMPTIO",0; sc_start SC_ASSUMPTIO,600000,5;		// 圣母之祈福
+		skilleffect "PR_MAGNIFICAT",0; sc_start SC_MAGNIFICAT,600000,3;		// 圣母之颂歌
+		skilleffect "AM_CP_WEAPON",0; sc_start SC_CP_WEAPON,600000,10;		// 化学武器保护
+		skilleffect "AM_CP_SHIELD",0; sc_start SC_CP_SHIELD,600000,10;		// 化学盾牌保护
+		skilleffect "AM_CP_ARMOR",0; sc_start SC_CP_ARMOR,600000,10;		// 化学盔甲保护
+		skilleffect "AM_CP_HELM",0; sc_start SC_CP_HELM,600000,10;			// 化学头盔保护
+		sc_start SC_SUFFRAGIUM,600000,3;									// 牺牲祈福
+		sc_start SC_KYRIE,600000,10;										// 霸邪之阵
+		sc_start SC_GLORIA,600000,5;										// 幸运之颂歌
+		sc_start SC_ASPDPOTION2,600000,10;									// 菠色克药水
+		return;
+
+} 
+
+
+
+// 超级Buff
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_SUPER_STATUS	{
+		percentheal 100,100;												// 满 HP/SP
+		skilleffect "AL_BLESSING",0; sc_start SC_BLESSING,600000,10;		// 天使之赐福
+		skilleffect "AL_INCAGI",0; sc_start SC_SPEEDUP1,600000,10;			// 移动速度提升状态1(比加速术更快)
+		skilleffect "AL_ANGELUS",0; sc_start SC_ANGELUS,600000,10;			// 天使之障壁
+		skilleffect "SC_IMPOSITIO",0; sc_start SC_IMPOSITIO,600000,5;		// 神威祈福
+		skilleffect "HP_ASSUMPTIO",0; sc_start SC_ASSUMPTIO,600000,5;		// 圣母之祈福
+		skilleffect "PR_MAGNIFICAT",0; sc_start SC_MAGNIFICAT,600000,3;		// 圣母之颂歌
+		skilleffect "AM_CP_WEAPON",0; sc_start SC_CP_WEAPON,600000,10;		// 化学武器保护
+		skilleffect "AM_CP_SHIELD",0; sc_start SC_CP_SHIELD,600000,10;		// 化学盾牌保护
+		skilleffect "AM_CP_ARMOR",0; sc_start SC_CP_ARMOR,600000,10;		// 化学盔甲保护
+		skilleffect "AM_CP_HELM",0; sc_start SC_CP_HELM,600000,10;			// 化学头盔保护
+		sc_start SC_SUFFRAGIUM,600000,3;									// 牺牲祈福
+		sc_start SC_KYRIE,600000,10;										// 霸邪之阵
+		sc_start SC_GLORIA,600000,5;										// 幸运之颂歌
+		sc_start SC_ASPDPOTION3,600000,10;									// 攻击加速状态3(比菠色克更快，例如刺客吃毒药)
+
+		skilleffect "SN_WINDWALK",0; sc_start SC_WINDWALK,600000,5;			// 风之步
+		sc_start SC_HALLUCINATIONWALK,600000,1;								// 幻影步
+		sc_start SC_ADRENALINE,600000,5;									// 速度激发
+		sc_start SC_WEAPONPERFECTION,600000,5;								// 无视体型
+		sc_start SC_MAXIMIZEPOWER,600000,5;									// 武器值最大化
+		sc_start SC_ENDURE,600000,10;										// 霸体
+		sc_start SC_LOUD,600000,1;											// 大声呐喊
+		sc_start SC_ENERGYCOAT,600000,1;									// 能量外套
+		sc_start SC_AUTOGUARD,600000,10;									// 自动防御
+		sc_start SC_RUWACH,600000,1;										// 光猎
+		sc_start SC_KAUPE,600000,3;											// 物理攻击回避一次(凯诬仆)
+		sc_start SC_KAIZEL,600000,7;										// 可立即复活(凯易哲)
+		
+		return;
+
+} 
+
+// RO手册
+//============================================================ 
+// - param: 无参数
+// - return: 无参数
+function	script	F_MANUAL	{
+	mes "[RO 手册]";
+	mes "本手册并无任何效果加成";
+	menu "自动拾取[开/关]",_TO_AUTOLOOT,
+		"自动战斗[开/关]",_TO_AUTOATTACK,
+		"贩卖物品",_TO_SELL,
+		"使用仓库",_TO_STORAGE,
+		"满Buff",_TO_ALL_STATUS,
+		"超级Buff",_TO_SUPER_STATUS,
+		"查看权限指令",_TO_CHAR_COMMANDS,
+		 "查看常用命令",_TO_GAME_COMMANDS,
+		 "查看服务器信息",_TO_SERVER_RATES,
+		 "查看在线人数",_TO_ONLINE,
+		 "查看角色信息",_TO_CHARINFO,
+		 "查看当前坐标",_TO_WHERE,
+		 "全身鉴定",_TO_IDENTIFY_ALL,
+		 "没事了.",_TO_CLOSE;
+		
+
+	_TO_SELL:
+		callshop "一般商人#01",2;
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_STORAGE:
+		openstorage;
+		callsub(_TO_CLOSE);
+		cutin "", 255;
+		return;
+
+
+	_TO_AUTOATTACK:
+		callfunc("F_AUTOATTACK");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_ALL_STATUS:
+		callfunc("F_ALL_STATUS");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_SUPER_STATUS:
+		callfunc("F_SUPER_STATUS");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_CHAR_COMMANDS:
+		callfunc("F_COMMANDS");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_GAME_COMMANDS:
+		mes "[帮助资讯] /h";
+		mes "[锁定攻击] /noctrl";
+		mes "[效果开关] /effect";
+		mes "[创建队伍] /organize 队伍名称";
+		mes "[创建工会] /guild 工会名称";
+		mes "[自动加点] /str+ 2 /vit+ 5 ...";
+		mes "[坐下站立] /sit";
+		mes "[开聊天室] /chat";
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_SERVER_RATES:
+		mes "已打印到资讯窗口...";
+		callfunc("F_SERVER_RATES");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_CHARINFO:
+		set @pid$,callfunc("F_PLAYER_ID");
+		set @pname$,callfunc("F_PLAYER_NAME");
+		set @plv,callfunc("F_PLAYER_GMLV");
+		mes "[角色ID] " + @pid$;
+		mes "[角色名称] " + @pname$;
+		mes "[权限等级] " + @plv;
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_WHERE:
+		mes "已打印到资讯窗口...";
+		callfunc("F_WHERE");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_ONLINE:
+		mes "已打印到资讯窗口...";
+		callfunc("F_ONLINE");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_AUTOLOOT:
+		callfunc("F_AUTOLOOT");
+		callsub(_TO_CLOSE);
+		return;
+
+	_TO_IDENTIFY_ALL:
+		mes "已全部鉴定";
+		callfunc("F_IDENTIFY_ALL");
+		callsub(_TO_CLOSE);
+		return;
+
+	
+	TO_ALL_STATUS:
+		percentheal 100,100;												// 满 HP/SP
+		skilleffect "AL_BLESSING",0; sc_start SC_BLESSING,600000,10;		// 天使之赐福
+		skilleffect "AL_INCAGI",0; sc_start SC_INCREASEAGI,600000,10;		// 加速术
+		skilleffect "AL_ANGELUS",0; sc_start SC_ANGELUS,600000,10;			// 天使之障壁
+		skilleffect "SC_IMPOSITIO",0; sc_start SC_IMPOSITIO,600000,5;		// 神威祈福
+		skilleffect "HP_ASSUMPTIO",0; sc_start SC_ASSUMPTIO,600000,5;		// 圣母之祈福
+		skilleffect "PR_MAGNIFICAT",0; sc_start SC_MAGNIFICAT,600000,3;		// 圣母之颂歌
+		skilleffect "AM_CP_WEAPON",0; sc_start SC_CP_WEAPON,600000,10;		// 化学武器保护
+		skilleffect "AM_CP_SHIELD",0; sc_start SC_CP_SHIELD,600000,10;		// 化学盾牌保护
+		skilleffect "AM_CP_ARMOR",0; sc_start SC_CP_ARMOR,600000,10;		// 化学盔甲保护
+		skilleffect "AM_CP_HELM",0; sc_start SC_CP_HELM,600000,10;			// 化学头盔保护
+		sc_start SC_SUFFRAGIUM,600000,3;									// 牺牲祈福
+		sc_start SC_KYRIE,600000,10;										// 霸邪之阵
+		sc_start SC_GLORIA,600000,5;										// 幸运之颂歌
+		sc_start SC_ASPDPOTION2,600000,10;									// 菠色克药水
+
+		goto _TO_CLOSE;
+
+
+	_TO_CLOSE:
+		close;
+		return;
+}
