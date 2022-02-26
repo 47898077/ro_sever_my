@@ -1,0 +1,53 @@
+Dim objUiElement,iRet,RO进程
+
+
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@autoloot 10",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+
+
+
+
+
+
+
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@autoattack",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+
+
+
+
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+//Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +2504",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+
+
+
+//Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+//Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +2529",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+
+//Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+
+
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +诅咒红宝石",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +吊颈娃娃",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +疯兔娃娃",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+
+Keyboard.InputText(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","@alootid +抗魔斗篷",true,20,10000,{"bContinueOnError": false, "iDelayAfter": 3000, "iDelayBefore": 500, "bSetForeground": true, "sSimulate": "message", "bValidate": false, "bClickBeforeInput": false})
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE","Enter",500,10000,{"bContinueOnError": false, "iDelayAfter": 1000, "iDelayBefore": 200, "bSetForeground": true, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+Do 
+
+Keyboard.PressKey(@ui"窗口1_99MaxEaDiffTeamby2018-06-20eRagexeRE",2,20,10000,{"bContinueOnError": false, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": false, "sSimulate": "simulate", "sKeyModifiers": [], "bClickBeforeInput": false})
+Delay(15000)
+Loop

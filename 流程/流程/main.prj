@@ -1,0 +1,214 @@
+{
+    "id": "e3e90360-971c-11ec-b6cb-99ee80ea0c9d",
+    "name": "流程",
+    "type": "flow",
+    "build": "",
+    "version": "6.0.0.211215",
+    "flow": [
+        {
+            "id": "start",
+            "rect": {
+                "x": 800,
+                "y": 150,
+                "width": 140,
+                "height": 50
+            },
+            "type": "begin",
+            "next": {
+                "refId": "e3e92a70-971c-11ec-b6cb-99ee80ea0c9d",
+                "vertices": []
+            },
+            "caption": "流程开始"
+        },
+        {
+            "type": "task",
+            "id": "e3e92a70-971c-11ec-b6cb-99ee80ea0c9d",
+            "rect": {
+                "x": 772,
+                "y": 312,
+                "width": 196,
+                "height": 64
+            },
+            "next": {
+                "refId": "",
+                "vertices": []
+            },
+            "exception": {
+                "refId": "",
+                "vertices": []
+            },
+            "file": "获取RO进程.task",
+            "caption": "流程块",
+            "editorMode": "visual",
+            "breakpoints": {}
+        }
+    ],
+    "variables": [
+        {
+            "type": "in",
+            "name": "g_input",
+            "category": "string",
+            "value": "\"\""
+        },
+        {
+            "type": "out",
+            "name": "g_output",
+            "category": "string",
+            "value": "\"\""
+        },
+        {
+            "type": "none",
+            "name": "g_temp",
+            "category": "string",
+            "value": "\"\""
+        }
+    ],
+    "layout": {
+        "config": {
+            "global": {
+                "splitterSize": 1,
+                "splitterExtra": 8,
+                "enableEdgeDock": false,
+                "rootOrientationVertical": true,
+                "tabEnableClose": false,
+                "tabEnableRename": false,
+                "tabSetEnableDrag": false,
+                "tabSetEnableMaximize": false,
+                "tabSetMinWidth": 280,
+                "tabSetMinHeight": 200,
+                "borderBarSize": 24,
+                "borderAutoSelectTabWhenClosed": true,
+                "borderEnableAutoHide": true
+            },
+            "borders": [
+                {
+                    "type": "border",
+                    "selected": 1,
+                    "size": 240,
+                    "minSize": 240,
+                    "enableAutoHide": true,
+                    "location": "left",
+                    "children": [
+                        {
+                            "type": "tab",
+                            "id": "flow",
+                            "name": "流程",
+                            "component": "flowPanel"
+                        },
+                        {
+                            "type": "tab",
+                            "id": "command",
+                            "name": "命令",
+                            "component": "commandPanel"
+                        }
+                    ]
+                },
+                {
+                    "type": "border",
+                    "selected": 0,
+                    "size": 280,
+                    "minSize": 280,
+                    "location": "right",
+                    "children": [
+                        {
+                            "type": "tab",
+                            "id": "commandProperty",
+                            "name": "属性",
+                            "component": "commandPropertyPanel"
+                        },
+                        {
+                            "type": "tab",
+                            "id": "commandVariable",
+                            "name": "变量",
+                            "component": "commandVariablePanel"
+                        }
+                    ]
+                }
+            ],
+            "layout": {
+                "type": "row",
+                "id": "body",
+                "children": [
+                    {
+                        "type": "tabset",
+                        "id": "#f987b964-9283-4686-9623-19922ec989ad",
+                        "selected": 1,
+                        "children": [
+                            {
+                                "type": "tab",
+                                "id": "e3e90360-971c-11ec-b6cb-99ee80ea0c9d",
+                                "name": "流程",
+                                "helpText": "D:\\app\\UiBot Community\\流程\\流程\\main.prj",
+                                "component": "flowEditor",
+                                "config": {
+                                    "type": "project",
+                                    "id": "e3e90360-971c-11ec-b6cb-99ee80ea0c9d"
+                                },
+                                "enableClose": false,
+                                "className": "flexlayout__tab_button_modify"
+                            },
+                            {
+                                "type": "tab",
+                                "id": "e3e92a70-971c-11ec-b6cb-99ee80ea0c9d",
+                                "name": "流程块",
+                                "helpText": "D:\\app\\UiBot Community\\流程\\流程\\获取RO进程.task",
+                                "component": "taskNodeEditor",
+                                "config": {
+                                    "selfControl": true,
+                                    "id": "e3e92a70-971c-11ec-b6cb-99ee80ea0c9d",
+                                    "type": "task",
+                                    "selector": [
+                                        "e3e92a70-971c-11ec-b6cb-99ee80ea0c9d"
+                                    ],
+                                    "node": {
+                                        "_events": {},
+                                        "_eventsCount": 0,
+                                        "_ports": {
+                                            "2": {
+                                                "_events": {},
+                                                "_eventsCount": 0,
+                                                "_index": 1
+                                            },
+                                            "3": {
+                                                "_events": {},
+                                                "_eventsCount": 0,
+                                                "_index": 2,
+                                                "_caption": "异常"
+                                            }
+                                        }
+                                    }
+                                },
+                                "enableClose": true,
+                                "className": "flexlayout__tab_button_modify"
+                            }
+                        ],
+                        "active": true
+                    },
+                    {
+                        "type": "tabset",
+                        "id": "buttom",
+                        "height": 200,
+                        "enableDrop": false,
+                        "enableDrag": false,
+                        "enableDivide": false,
+                        "enableClose": false,
+                        "minHeight": 32,
+                        "headerHeight": 32,
+                        "children": [
+                            {
+                                "type": "tab",
+                                "id": "output",
+                                "name": "输出",
+                                "component": "outputPanel",
+                                "enableDrag": false,
+                                "enableRenderOnDemand": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "type": "flow",
+        "version": "1.0.12"
+    }
+}
