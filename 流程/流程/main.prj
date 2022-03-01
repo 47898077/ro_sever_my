@@ -145,7 +145,7 @@
                                     "id": "e3e90360-971c-11ec-b6cb-99ee80ea0c9d"
                                 },
                                 "enableClose": false,
-                                "className": "flexlayout__tab_button_modify"
+                                "className": ""
                             },
                             {
                                 "type": "tab",
