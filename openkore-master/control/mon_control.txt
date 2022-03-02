@@ -57,6 +57,8 @@
 # Monsters not found in this file, or flags not specified will default to:
 # <attack> = 1
 
+all -1 0 0
+²¨Àû 1 0 0
 
 ##### Eggs #####
 Ant's Egg 0 0 0
@@ -89,6 +91,7 @@ Red Plant 0 0 0
 Shining Plant 0 0 0
 White Plant 0 0 0
 Yellow Plant 0 0 0
+
 
 
 ##### Homunculus #####

@@ -37,7 +37,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword vilihedo
+adminPassword reereyeh
 callSign
 commandPrefix ;
 callSignGM 0
@@ -185,7 +185,7 @@ itemsTakeAuto_party 0
 itemsGatherAuto 2
 itemsGatherAuto_notInTown 0
 itemsMaxWeight 89
-itemsMaxWeight_sellOrStore 48
+itemsMaxWeight_sellOrStore 89
 itemsMaxNum_sellOrStore 99
 cartMaxWeight 7900
 itemsTakeAuto_new 0
@@ -224,9 +224,9 @@ runFromTarget_minStep 7
 runFromTarget_maxStep 11
 runFromTarget_maxPathDistance 13
 
-saveMap
-saveMap_warpToBuyOrSell 1
-saveMap_warpChatCommand
+saveMap prt_fild08
+saveMap_warpToBuyOrSell 0
+saveMap_warpChatCommand @storage
 memo1
 memo2
 memo3
@@ -263,7 +263,7 @@ tankModeTarget
 
 teleportAuto_hp 10
 teleportAuto_sp 0
-teleportAuto_idle 0
+teleportAuto_idle 1
 teleportAuto_portal 0
 teleportAuto_search 0
 teleportAuto_minAggressives 0
@@ -433,7 +433,7 @@ homunculus_attackAuto_duringRandomWalk 0
 homunculus_attackAuto_duringItemsTake 0
 homunculus_attackDistance 1
 homunculus_attackMaxDistance 1
-homunculus_attackDistanceAuto 0
+homunculus_attackDistanceAuto 1
 homunculus_attackMaxRouteTime 4
 homunculus_attackCanSnipe 0
 homunculus_attackCheckLOS 1
@@ -596,8 +596,8 @@ doCommand {
 	manualAI 0
 }
 
-useSelf_skill {
-	lvl
+useSelf_skill 心神凝聚 {
+	lvl 10
 	maxCastTime 0
 	minCastTime 0
 	hp
@@ -606,7 +606,7 @@ useSelf_skill {
 	homunculus_sp
 	homunculus_dead
 	onAction
-	whenStatusActive
+	whenStatusActive 心神凝聚
 	whenStatusInactive
 	whenFollowing
 	spirit
@@ -743,8 +743,8 @@ equipAuto {
 	manualAI 0
 }
 
-useSelf_item {
-	hp
+useSelf_item 冰淇淋 {
+	hp < 60%
 	sp
 	homunculus_hp
 	homunculus_sp
@@ -804,7 +804,7 @@ storageAuto_npc_type 1
 storageAuto_npc_steps
 storageAuto_password
 storageAuto_keepOpen 0
-storageAuto_useChatCommand
+storageAuto_useChatCommand @storage
 storageAuto_useItem 0
 storageAuto_useItem_item
 storageAuto_notAfterDeath
