@@ -172,7 +172,7 @@ version 754974720
 serverType kRO_RagexeRE_2018_06_21a
 
 serverEncoding Simplified Chinese
-addTableFolders translated/kRO_english;kRO
+addTableFolders 
 charBlockSize 175
 
 https://ragnarokonline.gungho.jp/
@@ -318,7 +318,7 @@ version 754974720
 serverType kRO_RagexeRE_2018_06_21a
 
 serverEncoding Western
-addTableFolders translated/kRO_english;kRO
+addTableFolders 
 
 # this is for XKore 2 client only, it won't affect XKore 2 server
 # configure serverType, serverEncoding, charBlockSize according to your server

@@ -43,3 +43,9 @@ automacro test5 {
 	priority 0
 	call testmacro2
 }
+
+automacro check_eq {
+	console "添加物品到携带列表: 白翼之衣 [1] [1";console "添加物品到携带列表: 白翼之衣 [1] [2"
+	$.lastLogMsg /\w([0-9]+)/
+	call drop $.lastLogMsg
+}

@@ -1,2534 +1,12 @@
-
 achievement_tbl = {
-	[120001] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Northern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[200033] = {
-		UI_Type = 0,
-		group = "GOAL_LEVEL",
-		major = 1,
-		minor = 0,
-		title = "With new attitudes!(1)",
-		content = { summary = "Base Lv170 as 3-1st Job!", details = "Reach Base Lv170 as 3-1st Job." },
-		resource = { [1] = { text = "Base Level 170" } },
-		reward = { item = 6959 },
-		score = 50
-	},
-	[200034] = {
-		UI_Type = 0,
-		group = "GOAL_LEVEL",
-		major = 1,
-		minor = 0,
-		title = "With new attitudes!(2)",
-		content = { summary = "Base Lv170 as 3-2nd Job!", details = "Reach Base Lv170 as 3-2nd Job." },
-		resource = { [1] = { text = "Base Level 170" } },
-		reward = { item = 6959 },
-		score = 50
-	},
-	[999968] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 3,
-		minor = 1,
-		title = "Glast Heim Ghoul Hunt",
-		content = {
-			summary = "Hunt all targets",
-			details = "Their features vary a lot depending in their habitat. They are easy targets, so relax and go for them."
-		},
-		resource = { [1] = { text = "Hunt Ghoul 20,000 times", count = 20000 } },
-		reward = { item = 4110 },
-		score = 10
-	},
-	[120002] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Northern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120003] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Northern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120004] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Western Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields west of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields west of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120005] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Western Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields west of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields west of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120006] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Eastern Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120007] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Southern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120008] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Southern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120009] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Southern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120010] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Prontera Southern Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Prontera"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Prontera" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120011] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Eastern Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120012] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Southeastern Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields southeast of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields southeast of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120013] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Northwestern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields northwest of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields northwest of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120014] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Northwestern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields northwest of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields northwest of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120015] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Northwestern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields northwest of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields northwest of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120016] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Southern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120017] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Geffen Southern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Geffen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Geffen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120018] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120019] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120020] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120021] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120022] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120023] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Sograt Desert Field Exploration (6)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sograt Desert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sograt Desert" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120024] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Southwestern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields southwest of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields southwest of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120025] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Southwestern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields southwest of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields southwest of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120026] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Southwestern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields southwest of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields southwest of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120027] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Southwestern Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields southwest of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields southwest of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120028] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Eastern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120029] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Eastern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120030] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Eastern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120031] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Payon Eastern Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields east of Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields east of Payon" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120032] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Northern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120033] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Northern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120034] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Northern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120035] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Northern Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120036] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Northern Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120037] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120038] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120039] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120040] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120041] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120042] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Mjolnir Southern Field Exploration (6)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Mjolnir"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Mjolnir" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120043] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Al De Baran Southeastern Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Al De Baran"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Al De Baran" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120044] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120045] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120046] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120047] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120048] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120049] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (6)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120050] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (7)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120051] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Comodo Field Exploration (8)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120052] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Border Garrison Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Border Garrison"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Border Garrison" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120053] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Border Garrison Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Border Garrison"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Border Garrison" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120054] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Kiel Hyre's Cottage Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Kiel Hyre's Cottage"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Kiel Hyre's Cottage" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120055] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "El Mes Plateau Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the El Mes Plateau"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the El Mes Plateau" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120056] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "El Mes Plateau Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the El Mes Plateau"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the El Mes Plateau" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120057] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "El Mes Plateau Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the El Mes Plateau"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the El Mes Plateau" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120058] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "El Mes Gorge Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around El Mes Gorge"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around El Mes Gorge" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120059] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Kiel Hyre Academy Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Kiel Hyre Academy"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Kiel Hyre Academy" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120060] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Guards Camp Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Guards Camp"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Guards Camp" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120061] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Juno Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Juno"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Juno" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120062] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Thanatos Tower Entrance Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Thanatos Tower Entrance"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Thanatos Tower Entrance" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120063] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Hugel Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Hugel"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Hugel" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120064] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Hugel Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Hugel"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Hugel" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120065] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Hugel Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Hugel"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Hugel" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120066] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Abyss Lake Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Abyss Lake"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Abyss Lake" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120067] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120068] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120069] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120070] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120071] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120072] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (6)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120073] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (7)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120074] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Einbroch Field Exploration (8)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbroch"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbroch" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120075] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Lighthalzen Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Lighthalzen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Lighthalzen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120076] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Lighthalzen Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Lighthalzen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Lighthalzen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120077] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Lighthalzen Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Lighthalzen"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Lighthalzen" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120078] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Audhumbla Plain Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Audhumbla Plain"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Audhumbla Plain" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120079] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Plain of Ida Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Plain of Ida"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Plain of Ida" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120080] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Plain of Ida Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Plain of Ida"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Plain of Ida" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120081] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Plain of Ida Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Plain of Ida"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Plain of Ida" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120082] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Audhumbla Grassland Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Audhumbla Grassland"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Audhumbla Grassland" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120083] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Audhumbla Grassland Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Audhumbla Grassland"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Audhumbla Grassland" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120084] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Portus Luna Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Portus Luna"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Portus Luna" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120085] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Veins Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Veins"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Veins" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120086] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Veins Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Veins"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Veins" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120087] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Veins Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Veins"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Veins" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120088] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Veins Field Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Veins"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Veins" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120089] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Veins Field Exploration (5)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Veins"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Veins" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120090] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Eclage Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Eclage"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Eclage" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120091] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Bifrost Northern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields north of Bifrost"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields north of Bifrost" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120092] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Bifrost Southern Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields south of Bifrost"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields south of Bifrost" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120093] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Splendide Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Splendide"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Splendide" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120094] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Splendide Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Splendide"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Splendide" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120095] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Splendide Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Splendide"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Splendide" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120096] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Manuk Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Manuk"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Manuk" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120097] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Manuk Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Manuk"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Manuk" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120098] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Manuk Field Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Manuk"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Manuk" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120099] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Outskirts of Kamidal Mountain Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Outskirts of Kamidal Mountain"
-		},
-		resource = {
-			[1] = {
-				text = "Discover treasure in the fields around the Outskirts of Kamidal Mountain"
-			}
-		},
-		reward = { item = 668 },
-		score = 10
-	},
-	[120100] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Outskirts of Kamidal Mountain Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Outskirts of Kamidal Mountain"
-		},
-		resource = {
-			[1] = {
-				text = "Discover treasure in the fields around the Outskirts of Kamidal Mountain"
-			}
-		},
-		reward = { item = 668 },
-		score = 10
-	},
-	[120101] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Amatsu Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Amatsu"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Amatsu" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120102] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Gonryun Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Gonryun"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Gonryun" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120103] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Louyang Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Luoyang"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Luoyang" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120104] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Ayothaya Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Ayothaya"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Ayothaya" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120105] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Moscovia Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Moscovia"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Moscovia" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120106] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Brasilis Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Brasilis"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Brasilis" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120107] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Dewata Field Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Dewata"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Dewata" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120108] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Malaya Field Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Malaya"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Malaya" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120109] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Malaya Field Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Malaya"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Malaya" } },
-		reward = { item = 668 },
-		score = 10
-	},
-	[120110] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Abbey Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Abbey Dungeon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Abbey Dungeon" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120111] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Hugel Abyss Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Hugel Abyss"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Hugel Abyss" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120112] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Clock Tower Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Clock Tower"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Clock Tower" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120113] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Amatsu Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Amatsu"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Amatsu" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120114] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Ant Hell Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Ant Hell"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Ant Hell" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120115] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Ayothaya Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Ayothaya"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Ayothaya" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120116] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Comodo Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Comodo"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Comodo" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120117] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Brasilis Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Brasilis"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Brasilis" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120118] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Clock Tower Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Clock Tower"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Clock Tower" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120119] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Istana Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Istana"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Istana" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120120] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Skarava Hall Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Skarava Hall"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Skarava Hall" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120121] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Bifrost Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Bifrost"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Bifrost" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120122] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Einbech Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Einbech"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Einbech" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120123] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Geffen Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Geffen Dungeon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Geffen Dungeon" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120124] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Glast Heim Dungeon Exploration (1)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Glast Heim"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Glast Heim" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120125] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Glast Heim Dungeon Exploration (2)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Glast Heim"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Glast Heim" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120126] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Glast Heim Dungeon Exploration (3)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Glast Heim"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Glast Heim" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120127] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Glast Heim Dungeon Exploration (4)",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Glast Heim"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Glast Heim" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120128] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Gonryun Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Gonryun"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Gonryun" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120129] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Rachel Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Rachel"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Rachel" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120130] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Sphinx Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sphinx"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sphinx" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120131] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Izlude Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Izlude"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Izlude" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120132] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Robot Factory Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Robot Factory"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Robot Factory" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120133] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Regenschirm Laboratory Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Regenschirm Laboratory"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Regenschirm Laboratory" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120134] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Luoyang Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Luoyang"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Luoyang" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120135] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Nogg Road Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Nogg Road"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Nogg Road" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120136] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Mjolnir Dead Pit Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Mjolnir Dead Pit"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Mjolnir Dead Pit" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120137] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Pyramid Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Pyramid"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Pyramid" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120138] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Orc Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Orc Dungeon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Orc Dungeon" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120139] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Payon Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Payon"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Payon" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120140] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Labyrinth Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Labyrinth"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Labyrinth" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120141] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Culvert Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Culvert"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Culvert" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120142] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Thanatos Tower Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Thanatos Tower"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Thanatos Tower" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120143] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Thor's Volcano Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Thor's Volcano"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Thor's Volcano" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120144] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Sunken Ship Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Sunken Ship"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Sunken Ship" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120145] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Turtle Island Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around Turtle Island"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around Turtle Island" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[120146] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 5,
-		title = "Toy Factory Dungeon Exploration",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover treasure in the fields around the Toy Factory"
-		},
-		resource = { [1] = { text = "Discover treasure in the fields around the Toy Factory" } },
-		reward = { item = 668 },
-		score = 20
-	},
-	[129001] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Prontera",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Prontera exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Prontera Northern Field Exploration (1)", shortcut = 120001 },
-			[2] = { text = "Complete Prontera Northern Field Exploration (2)", shortcut = 120002 },
-			[3] = { text = "Complete Prontera Northern Field Exploration (3)", shortcut = 120003 },
-			[4] = { text = "Complete Prontera Western Field Exploration (1)", shortcut = 120004 },
-			[5] = { text = "Complete Prontera Western Field Exploration (2)", shortcut = 120005 },
-			[6] = { text = "Complete Prontera Eastern Field Exploration (1)", shortcut = 120006 },
-			[7] = { text = "Complete Prontera Southern Field Exploration (1)", shortcut = 120007 },
-			[8] = { text = "Complete Prontera Southern Field Exploration (2)", shortcut = 120008 },
-			[9] = { text = "Complete Prontera Southern Field Exploration (3)", shortcut = 120009 },
-			[10] = { text = "Complete Prontera Southern Field Exploration (4)", shortcut = 120010 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129002] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Geffen",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Geffen exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Geffen Eastern Field Exploration (1)", shortcut = 120011 },
-			[2] = { text = "Complete Geffen Southeastern Field Exploration (1)", shortcut = 120012 },
-			[3] = { text = "Complete Geffen Northwestern Field Exploration (1)", shortcut = 120013 },
-			[4] = { text = "Complete Geffen Northwestern Field Exploration (2)", shortcut = 120014 },
-			[5] = { text = "Complete Geffen Northwestern Field Exploration (3)", shortcut = 120015 },
-			[6] = { text = "Complete Geffen Southern Field Exploration (1)", shortcut = 120016 },
-			[7] = { text = "Complete Geffen Southern Field Exploration (2)", shortcut = 120017 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129003] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of the Sograt Desert",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Sograt Desert exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Sograt Desert Field Exploration (1)", shortcut = 120018 },
-			[2] = { text = "Complete Sograt Desert Field Exploration (2)", shortcut = 120019 },
-			[3] = { text = "Complete Sograt Desert Field Exploration (3)", shortcut = 120020 },
-			[4] = { text = "Complete Sograt Desert Field Exploration (4)", shortcut = 120021 },
-			[5] = { text = "Complete Sograt Desert Field Exploration (5)", shortcut = 120022 },
-			[6] = { text = "Complete Sograt Desert Field Exploration (6)", shortcut = 120023 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129004] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Payon",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Payon exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Payon Southwestern Field Exploration (1)", shortcut = 120024 },
-			[2] = { text = "Complete Payon Southwestern Field Exploration (2)", shortcut = 120025 },
-			[3] = { text = "Complete Payon Southwestern Field Exploration (3)", shortcut = 120026 },
-			[4] = { text = "Complete Payon Southwestern Field Exploration (4)", shortcut = 120027 },
-			[5] = { text = "Complete Payon Eastern Field Exploration (1)", shortcut = 120028 },
-			[6] = { text = "Complete Payon Eastern Field Exploration (2)", shortcut = 120029 },
-			[7] = { text = "Complete Payon Eastern Field Exploration (3)", shortcut = 120030 },
-			[8] = { text = "Complete Payon Eastern Field Exploration (4)", shortcut = 120031 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129005] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Northern Mjolnir",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete northern Mjolnir exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Mjolnir Northern Field Exploration (1)", shortcut = 120032 },
-			[2] = { text = "Complete Mjolnir Northern Field Exploration (2)", shortcut = 120033 },
-			[3] = { text = "Complete Mjolnir Northern Field Exploration (3)", shortcut = 120034 },
-			[4] = { text = "Complete Mjolnir Northern Field Exploration (4)", shortcut = 120035 },
-			[5] = { text = "Complete Mjolnir Northern Field Exploration (5)", shortcut = 120036 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129006] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Southern Mjolnir",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete southern Mjolnir exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Mjolnir Southern Field Exploration (1)", shortcut = 120037 },
-			[2] = { text = "Complete Mjolnir Southern Field Exploration (2)", shortcut = 120038 },
-			[3] = { text = "Complete Mjolnir Southern Field Exploration (3)", shortcut = 120039 },
-			[4] = { text = "Complete Mjolnir Southern Field Exploration (4)", shortcut = 120040 },
-			[5] = { text = "Complete Mjolnir Southern Field Exploration (5)", shortcut = 120041 },
-			[6] = { text = "Complete Mjolnir Southern Field Exploration (6)", shortcut = 120042 },
-			[7] = { text = "Complete Al De Baran Southern Field Exploration (1)", shortcut = 120043 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129007] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Comodo",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Comodo exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Comodo Field Exploration (1)", shortcut = 120044 },
-			[2] = { text = "Complete Comodo Field Exploration (2)", shortcut = 120045 },
-			[3] = { text = "Complete Comodo Field Exploration (3)", shortcut = 120046 },
-			[4] = { text = "Complete Comodo Field Exploration (4)", shortcut = 120047 },
-			[5] = { text = "Complete Comodo Field Exploration (5)", shortcut = 120048 },
-			[6] = { text = "Complete Comodo Field Exploration (6)", shortcut = 120049 },
-			[7] = { text = "Complete Comodo Field Exploration (7)", shortcut = 120050 },
-			[8] = { text = "Complete Comodo Field Exploration (8)", shortcut = 120051 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129008] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 0,
-		title = "Explorer of Rune-Midgarts",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Rune-Midgarts exploration"
-		},
-		resource = {
-			[1] = { text = "Explorer of Prontera", shortcut = 129001 },
-			[2] = { text = "Explorer of Geffen", shortcut = 129002 },
-			[3] = { text = "Explorer of the Sograt Desert", shortcut = 129003 },
-			[4] = { text = "Explorer of Payon", shortcut = 129004 },
-			[5] = { text = "Explorer of Northern Mjolnir", shortcut = 129005 },
-			[6] = { text = "Explorer of Southern Mjolnir", shortcut = 129006 },
-			[7] = { text = "Explorer of Comodo", shortcut = 129007 }
-		},
-		reward = { item = 617 },
-		score = 50
-	},
-	[129009] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Explorer of Juno",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Juno exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Border Garrison Field Exploration (1)", shortcut = 120052 },
-			[2] = { text = "Complete Border Garrison Field Exploration (2)", shortcut = 120053 },
-			[3] = { text = "Complete Kiel Hyre's Cottage Field Exploration (1)", shortcut = 120054 },
-			[4] = { text = "Complete El Mes Plateau Field Exploration (1)", shortcut = 120055 },
-			[5] = { text = "Complete El Mes Plateau Field Exploration (2)", shortcut = 120056 },
-			[6] = { text = "Complete El Mes Plateau Field Exploration (3)", shortcut = 120057 },
-			[7] = { text = "Complete El Mes Gorge Field Exploration (1)", shortcut = 120058 },
-			[8] = { text = "Complete Kiel Hyre Academy Field Exploration (1)", shortcut = 120059 },
-			[9] = { text = "Complete Guards Camp Field Exploration (1)", shortcut = 120060 },
-			[10] = { text = "Complete Juno Field Exploration (1)", shortcut = 120061 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129010] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Explorer of Hugel",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Hugel exploration"
-		},
-		resource = {
-			[1] = {
-				text = "Complete Thanatos Tower Entrance Field Exploration (1)",
-				shortcut = 120062
-			},
-			[2] = { text = "Complete Hugel Field Exploration (1)", shortcut = 120063 },
-			[3] = { text = "Complete Hugel Field Exploration (2)", shortcut = 120064 },
-			[4] = { text = "Complete Hugel Field Exploration (3)", shortcut = 120065 },
-			[5] = { text = "Complete Abyss Lake Field Exploration (1)", shortcut = 120066 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129011] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Explorer of Einbrochl",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Einbroch exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Einbroch Field Exploration (1)", shortcut = 120067 },
-			[2] = { text = "Complete Einbroch Field Exploration (2)", shortcut = 120068 },
-			[3] = { text = "Complete Einbroch Field Exploration (3)", shortcut = 120069 },
-			[4] = { text = "Complete Einbroch Field Exploration (4)", shortcut = 120070 },
-			[5] = { text = "Complete Einbroch Field Exploration (5)", shortcut = 120071 },
-			[6] = { text = "Complete Einbroch Field Exploration (6)", shortcut = 120072 },
-			[7] = { text = "Complete Einbroch Field Exploration (7)", shortcut = 120073 },
-			[8] = { text = "Complete Einbroch Field Exploration (8)", shortcut = 120074 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129012] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Explorer of Lighthalzen",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Lighthalzen exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Lighthalzen Field Exploration (1)", shortcut = 120075 },
-			[2] = { text = "Complete Lighthalzen Field Exploration (2)", shortcut = 120076 },
-			[3] = { text = "Complete Lighthalzen Field Exploration (3)", shortcut = 120077 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129013] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 1,
-		title = "Explorer of Schwaltzvalt",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Schwaltzvalt exploration"
-		},
-		resource = {
-			[1] = { text = "Explorer of Juno", shortcut = 129009 },
-			[2] = { text = "Explorer of Hugel", shortcut = 129010 },
-			[3] = { text = "Explorer of Einbrochl", shortcut = 129011 },
-			[4] = { text = "Explorer of Lighthalzen", shortcut = 129012 }
-		},
-		reward = { item = 617 },
-		score = 50
-	},
-	[129014] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Explorer of Rachel",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Rachel exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Audhumbla Plain Field Exploration (1)", shortcut = 120078 },
-			[2] = { text = "Complete Plain of Ida Field Exploration (1)", shortcut = 120079 },
-			[3] = { text = "Complete Plain of Ida Field Exploration (2)", shortcut = 120080 },
-			[4] = { text = "Complete Plain of Ida Field Exploration (3)", shortcut = 120081 },
-			[5] = { text = "Complete Audhumbla Grassland Field Exploration (1)", shortcut = 120082 },
-			[6] = { text = "Complete Audhumbla Grassland Field Exploration (2)", shortcut = 120083 },
-			[7] = { text = "Complete Portus Luna Field Exploration (1)", shortcut = 120084 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129015] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Explorer of Veins",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Veins exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Veins Field Exploration (1)", shortcut = 120085 },
-			[2] = { text = "Complete Veins Field Exploration (2)", shortcut = 120086 },
-			[3] = { text = "Complete Veins Field Exploration (3)", shortcut = 120087 },
-			[4] = { text = "Complete Veins Field Exploration (4)", shortcut = 120088 },
-			[5] = { text = "Complete Veins Field Exploration (5)", shortcut = 120089 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129016] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 2,
-		title = "Explorer of Arunafeltz",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Arunafeltz exploration"
-		},
-		resource = {
-			[1] = { text = "Explorer of Rachel", shortcut = 129014 },
-			[2] = { text = "Explorer of Veins", shortcut = 129015 }
-		},
-		reward = { item = 617 },
-		score = 50
-	},
-	[129017] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Explorer of Rapine",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Rapine exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Eclage Field Exploration (1)", shortcut = 120090 },
-			[2] = { text = "Complete Bifrost Northern Field Exploration (1)", shortcut = 120091 },
-			[3] = { text = "Complete Bifrost Southern Field Exploration (1)", shortcut = 120092 },
-			[4] = { text = "Complete Splendide Field Exploration (1)", shortcut = 120093 },
-			[5] = { text = "Complete Splendide Field Exploration (2)", shortcut = 120094 },
-			[6] = { text = "Complete Splendide Field Exploration (3)", shortcut = 120095 }
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129018] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Explorer of Manuk",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Manuk exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Manuk Field Exploration (1)", shortcut = 120096 },
-			[2] = { text = "Complete Manuk Field Exploration (2)", shortcut = 120097 },
-			[3] = { text = "Complete Manuk Field Exploration (3)", shortcut = 120098 },
-			[4] = {
-				text = "Complete Outskirts of Kamidal Mountain Field Exploration (1)",
-				shortcut = 120099
-			},
-			[5] = {
-				text = "Complete Outskirts of Kamidal Mountain Field Exploration (2)",
-				shortcut = 120100
-			}
-		},
-		reward = { item = 644 },
-		score = 20
-	},
-	[129019] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 3,
-		title = "Explorer of Another World",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Another World exploration"
-		},
-		resource = {
-			[1] = { text = "Explorer of Rapine", shortcut = 129017 },
-			[2] = { text = "Explorer of Manuk", shortcut = 120918 }
-		},
-		reward = { item = 617 },
-		score = 50
-	},
-	[129020] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 2,
-		minor = 4,
-		title = "Explorer of Localizing Fields",
-		content = {
-			summary = "Complete target field exploration",
-			details = "Complete Localizing Field exploration"
-		},
-		resource = {
-			[1] = { text = "Complete Amatsu Field Exploration (1)", shortcut = 120101 },
-			[2] = { text = "Complete Gonryun Field Exploration (1)", shortcut = 120102 },
-			[3] = { text = "Complete Louyang Field Exploration (1)", shortcut = 120103 },
-			[4] = { text = "Complete Ayothaya Field Exploration (1)", shortcut = 120104 },
-			[5] = { text = "Complete Moscovia Field Exploration (1)", shortcut = 120105 },
-			[6] = { text = "Complete Brasilis Field Exploration (1)", shortcut = 120106 },
-			[7] = { text = "Complete Dewata Field Exploration (1)", shortcut = 120107 },
-			[8] = { text = "Complete Malaya Field Exploration (1)", shortcut = 120108 },
-			[9] = { text = "Complete Malaya Field Exploration (2)", shortcut = 120109 }
-		},
-		reward = { item = 617 },
-		score = 50
-	},
 	[200000] = {
 		UI_Type = 0,
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Obtained the first Aura!",
-		content = { summary = "Reached Base Lv 99!", details = "Reach Base Level 99." },
-		resource = { [1] = { text = "Base Lv 99" } },
+		title = "获得第一个光环!",
+		content = { summary = "Base Lv99 完成!", details = "人物等级完成99级." },
+		resource = { [1] = { text = "人物等级 99" } },
 		reward = { title = 1000, buff = 10, item = 12549 },
 		score = 50
 	},
@@ -2537,9 +15,9 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Obtained the second Aura!",
-		content = { summary = "Reached Base Lv 150!", details = "Reach Base Level 150." },
-		resource = { [1] = { text = "Base Lv 150" } },
+		title = "获得第二个光环!",
+		content = { summary = "Base Lv150 完成!", details = "人物完成150等级." },
+		resource = { [1] = { text = "人物等级 150" } },
 		reward = { title = 1001, buff = 10, item = 5364 },
 		score = 60
 	},
@@ -2548,9 +26,9 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Obtained the third Aura!",
-		content = { summary = "Reached Base Lv 175!", details = "Reach Base Level 175." },
-		resource = { [1] = { text = "Base Lv 175" } },
+		title = "获得第三个光环!",
+		content = { summary = "Base Lv175 完成!", details = "人物完成175等级." },
+		resource = { [1] = { text = "人物等级 175" } },
 		reward = { title = 1002, buff = 10, item = 18880 },
 		score = 70
 	},
@@ -2559,9 +37,9 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Job Level Master!",
-		content = { summary = "Reached Job Lv 50!", details = "Reach Job Level 50." },
-		resource = { [1] = { text = "Job Lv 50" } },
+		title = "职业等级满级!",
+		content = { summary = "Job Lv50 完成!", details = "职业等级完成50级." },
+		resource = { [1] = { text = "职业等级 50" } },
 		reward = { title = 1003, buff = 10, item = 617 },
 		score = 30
 	},
@@ -2570,27 +48,10 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Job Level Grand Master!",
-		content = { summary = "Reached Job Lv 70!", details = "Reach Job Level 70." },
-		resource = { [1] = { text = "Job Lv 70" } },
-		reward = { title = 1004, buff = 10, item = 12439 },
-		score = 50
-	},
-	[129021] = {
-		UI_Type = 0,
-		group = "GOAL_LEVEL",
-		major = 1,
-		minor = 0,
-		title = "Life Goals",
-		content = {
-			summary = "Reach for your full potential",
-			details = "Achieve Base Level 99 and Job Level 70"
-		},
-		resource = {
-			[1] = { text = "Reach Job Level 70", shortcut = 200004 },
-			[2] = { text = "Reach Base Level 90", shortcut = 200000 }
-		},
-		reward = { item = 12817 },
+		title = "职业等级满级!",
+		content = { summary = "Job Lv70 完成!", details = "职业等级完成70级." },
+		resource = { [1] = { text = "职业等级 70" } },
+		reward = { title = 1004, buff = 10, item = 12817 },
 		score = 50
 	},
 	[200005] = {
@@ -2598,12 +59,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Official Adventurer",
-		content = {
-			summary = "Obtain the First Job Class",
-			details = "Become a Swordsman, Merchant, Thief, Mage, Acolyte, or Archer."
-		},
-		resource = { [1] = { text = "Obtain the First Job Class" } },
+		title = "正式的冒险家",
+		content = { summary = "转职为1代职业群", details = "转职为 剑士，商人，盗贼，魔法师，服事，弓箭手中的一个." },
+		resource = { [1] = { text = "转职为1代职业群" } },
 		reward = { buff = 12 },
 		score = 10
 	},
@@ -2612,12 +70,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "First step towards the Transcendent Job Class!",
-		content = {
-			summary = "Obtain the First Transcendent Job Class",
-			details = "Become a High Swordsman, High Merchant, High Thief, High Mage, High Acolyte, or High Archer."
-		},
-		resource = { [1] = { text = "Obtain the First Transcendent Job Class" } },
+		title = "转生职业群的第一步!",
+		content = { summary = "转生转职为1代职业群", details = "转生转职为 剑士，商人，盗贼，魔法师，服事，弓箭手中的一个." },
+		resource = { [1] = { text = "转职为转生1代职业群" } },
 		reward = { buff = 12 },
 		score = 20
 	},
@@ -2626,12 +81,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Veteran Adventurer! (1)",
-		content = {
-			summary = "Obtain the Second Job Class (2-1)",
-			details = "Become a Knight, Blacksmith, Assassin, Wizard, Priest, or Hunter."
-		},
-		resource = { [1] = { text = "Obtain the Second Job Class (2-1)" } },
+		title = "熟练的冒险家! (1)",
+		content = { summary = "2-转职为1代职业群", details = "转职为 骑士，铁匠，刺客，巫师，牧师，打猎人中的一个." },
+		resource = { [1] = { text = "转职为2-1代 职业群" } },
 		reward = { buff = 12 },
 		score = 25
 	},
@@ -2640,12 +92,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Veteran Adventurer! (2)",
-		content = {
-			summary = "Obtain the Second Job Class (2-2)",
-			details = "Become a Crusader, Alchemist, Rogue, Sage, Monk, Bard or Dancer."
-		},
-		resource = { [1] = { text = "Obtain the Second Job Class (2-2)" } },
+		title = "熟练的冒险家! (2)",
+		content = { summary = "转职为 2-2代 职业群", details = "转职为 十字军，炼金术师，流氓，贤者，武道家，吟游诗人，舞娘中的一个." },
+		resource = { [1] = { text = "转职为 2-2代 职业群" } },
 		reward = { buff = 12 },
 		score = 25
 	},
@@ -2654,12 +103,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Hero (1)",
-		content = {
-			summary = "Obtain the Second Transcendent Job Class (2-1)",
-			details = "Become a Lord Knight, White smith, Assassin Cross, High Wizard, High Priest or Sniper."
-		},
-		resource = { [1] = { text = "Obtain the Second Transcendent Job Class (2-1)" } },
+		title = "勇士(1)",
+		content = { summary = "转生 2-转职为1代职业群", details = "转职为 骑士领主，神工匠 哈沃，十字刺客，超魔导师，神官，神射手中的一个." },
+		resource = { [1] = { text = "转生 转职为2-1代 职业群" } },
 		reward = { buff = 12 },
 		score = 30
 	},
@@ -2668,12 +114,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Hero (2)",
-		content = {
-			summary = "Obtain the Second Transcendent Job Class (2-2)",
-			details = "Become a Paladin, Creator, Stalker, Professor, Champion, Gypsy or Clown."
-		},
-		resource = { [1] = { text = "Obtain the Second Transcendent Job Class (2-2)" } },
+		title = "勇士(2)",
+		content = { summary = "转生 转职为 2-2代 职业群", details = "转职为 兰达，创造者，神行太保，智者，武术宗师，冷艳舞姬，搞笑艺人中的一个." },
+		resource = { [1] = { text = "转生 转职为 2-2代 职业群" } },
 		reward = { buff = 12 },
 		score = 30
 	},
@@ -2682,12 +125,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Elite Adventurer! (1)",
-		content = {
-			summary = "Obtain the Third Job Class (3-1)",
-			details = "Become a Rune Knight, Mechanic, G Cross, Warlock, Arch Bishop or Ranger."
-		},
-		resource = { [1] = { text = "Obtain the Third Job Class (3-1)" } },
+		title = "精英冒险家! (1)",
+		content = { summary = "3-转职为1代职业群", details = "转职为 符文骑士，机械工匠，十字切割者，大法师， 大主教，游侠中的一个." },
+		resource = { [1] = { text = "转职为3-1代职业群" } },
 		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
@@ -2696,12 +136,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Transcendent One! (1)",
-		content = {
-			summary = "Obtain the Third Transcendent Job Class (3-1)",
-			details = "After rebirthing, become a Rune Knight, Mechanic, G Cross, Warlock, Arch Bishop or Ranger."
-		},
-		resource = { [1] = { text = "Obtain the Third Transcendent Job Class (3-1)" } },
+		title = "超越者! (1)",
+		content = { summary = "转生 3-转职为1代职业群", details = "转生后, 转职为 符文骑士，机械工匠，十字切割者，大法师， 大主教，游侠中的一个." },
+		resource = { [1] = { text = "转生 转职为3-1代职业群" } },
 		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
@@ -2710,12 +147,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Elite Adventurer! (2)",
-		content = {
-			summary = "Obtain the Third Job Class (3-2)",
-			details = "Become a Royal Guard, Generic, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer."
-		},
-		resource = { [1] = { text = "Obtain the Third Job Class (3-2)" } },
+		title = "精英冒险家! (2)",
+		content = { summary = "转职为3-2代 职业群", details = "转职为 皇家卫士，基因学者，逐影，元素使，修罗，宫廷乐师，漫游舞者中的一个." },
+		resource = { [1] = { text = "转职为3-2代 职业群" } },
 		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
@@ -2724,12 +158,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Transcendent One! (2)",
+		title = "超越者! (2)",
 		content = {
-			summary = "Obtain the Third Transcendent Job Class (3-2)",
-			details = "After rebirthing, become a Royal Guard, Generic, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer."
+			summary = "转生 转职为3-2代 职业群",
+			details = "转生后, 转职为 皇家卫士，基因学者，逐影，元素使，修罗，宫廷乐师，漫游舞者中的一个."
 		},
-		resource = { [1] = { text = "Obtain the Third Transcendent Job Class (3-2)" } },
+		resource = { [1] = { text = "转生 转职为3-2代 职业群" } },
 		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
@@ -2738,12 +172,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "One Who Walks a Special Path",
-		content = {
-			summary = "Obtain an Expanded Job Class",
-			details = "Become a TaeKwon Kid, Gunslinger, Super Novice or Ninja."
-		},
-		resource = { [1] = { text = "Obtain an Expanded Job Class" } },
+		title = "走不同寻常路的人.",
+		content = { summary = "转职为扩张职业群", details = "转职为 跆拳，神枪手，超级初学者，忍者中的一个." },
+		resource = { [1] = { text = "转职为扩张职业群" } },
 		reward = { buff = 12 },
 		score = 10
 	},
@@ -2752,12 +183,9 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "This is My Path!",
-		content = {
-			summary = "Obtain the Second Expanded Job Class",
-			details = "Become a Soul Linker, TaeKwon Master, Rebellion, Oboro or Kagerou."
-		},
-		resource = { [1] = { text = "Obtain the Second Expanded Class" } },
+		title = "这就是我要走的路!",
+		content = { summary = "转职为扩张2代职业群", details = "转职为 悟灵士，拳圣，叛乱者 ，月影忍者，日影忍者中的一个." },
+		resource = { [1] = { text = "转职为扩张2代职业群" } },
 		reward = { buff = 12, item = 16483 },
 		score = 20
 	},
@@ -2766,9 +194,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "O Bear-like Strength!",
-		content = { summary = "Have 90 Base STR", details = "Raise base Strength to 90." },
-		resource = { [1] = { text = "Have 90 Base STR" } },
+		title = "像熊一样的力量!",
+		content = { summary = "完成净 STR 90", details = "属性STR点数完成净STR 90以上." },
+		resource = { [1] = { text = "完成净STR 90" } },
 		reward = {},
 		score = 10
 	},
@@ -2777,9 +205,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Overflowing Magic!",
-		content = { summary = "Have 90 Base INT", details = "Raise base Intelligence to 90." },
-		resource = { [1] = { text = "Have 90 Base INT" } },
+		title = "充足的魔力!",
+		content = { summary = "完成净INT 90", details = "属性INT点数完成净90以上." },
+		resource = { [1] = { text = "完成净INT 90以上" } },
 		reward = {},
 		score = 10
 	},
@@ -2788,9 +216,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "A Healthy Mind in a Healthy Body!",
-		content = { summary = "Have 90 Base VIT", details = "Raise base Vitality to 90." },
-		resource = { [1] = { text = "Have 90 Base VIT" } },
+		title = "健康的身体 健康的精神!",
+		content = { summary = "完成净 VIT 90", details = "属性VIT点数完成净90以上." },
+		resource = { [1] = { text = "完成净 VIT 90" } },
 		reward = {},
 		score = 10
 	},
@@ -2799,9 +227,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Speedmania",
-		content = { summary = "Have 90 Base AGI", details = "Raise base Agility to 90." },
-		resource = { [1] = { text = "Have 90 Base AGI" } },
+		title = "速度狂",
+		content = { summary = "完成净 AGI90", details = "属性 AGI点数完成净90以上." },
+		resource = { [1] = { text = "完成净 AGI90" } },
 		reward = {},
 		score = 10
 	},
@@ -2810,9 +238,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Eagle Eye",
-		content = { summary = "Have 90 Base DEX", details = "Raise base Dexterity to 90." },
-		resource = { [1] = { text = "Have 90 Base DEX" } },
+		title = "鹰眼",
+		content = { summary = "完成净 DEX 90", details = "属性DEX点数完成净90以上." },
+		resource = { [1] = { text = "完成净DEX 90" } },
 		reward = {},
 		score = 10
 	},
@@ -2821,9 +249,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Lucky Max",
-		content = { summary = "Have 90 Base LUK", details = "Raise base Luck to 90." },
-		resource = { [1] = { text = "Have 90 Base LUK" } },
+		title = "幸运最大值",
+		content = { summary = "完成净LUK 90 ", details = "属性LUK点数完成净90以上." },
+		resource = { [1] = { text = "完成净LUK 90" } },
 		reward = {},
 		score = 10
 	},
@@ -2832,9 +260,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "O Dragon-like Strength!",
-		content = { summary = "Have 125 Base STR", details = "Raise base Strength to 125." },
-		resource = { [1] = { text = "Have 125 Base STR" } },
+		title = "像龙一样的力量!",
+		content = { summary = "完成净STR 125", details = "属性STR点数完成净125以上." },
+		resource = { [1] = { text = "完成净STR 125" } },
 		reward = { buff = 319 },
 		score = 20
 	},
@@ -2843,9 +271,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Insane Magic",
-		content = { summary = "Have 125 Base INT", details = "Raise base Intelligence to 125." },
-		resource = { [1] = { text = "Have 125 Base INT" } },
+		title = "狂气的魔力",
+		content = { summary = "完成INT 125", details = "属性 INT点数完成净125以上" },
+		resource = { [1] = { text = "完成净 INT 125" } },
 		reward = { buff = 611 },
 		score = 20
 	},
@@ -2854,9 +282,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Diamond Alloy",
-		content = { summary = "Have 125 Base VIT", details = "Raise base Vitality to 125." },
-		resource = { [1] = { text = "Have 125 Base VIT" } },
+		title = "合金石",
+		content = { summary = "完成净VIT 125 ", details = "属性VIT点数完成净125以上." },
+		resource = { [1] = { text = "完成净VIT 125 " } },
 		reward = { buff = 293 },
 		score = 20
 	},
@@ -2865,9 +293,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Speed of Light",
-		content = { summary = "Have 125 Base AGI", details = "Raise base Agility to 125" },
-		resource = { [1] = { text = "Have 125 Base AGI" } },
+		title = "光的速度",
+		content = { summary = "完成净AGI 125 ", details = "属性AGI点数完成净125以上." },
+		resource = { [1] = { text = "完成净AGI 125" } },
 		reward = { buff = 296 },
 		score = 20
 	},
@@ -2876,9 +304,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Eye of Falcon",
-		content = { summary = "Have 125 Base DEX", details = "Raise base Dexterity to 125." },
-		resource = { [1] = { text = "Have 125 Base DEX" } },
+		title = "鹰眼",
+		content = { summary = "完成DEX 125 ", details = "属性DEX点数完成净125以上." },
+		resource = { [1] = { text = "完成DEX 125 " } },
 		reward = { buff = 295 },
 		score = 20
 	},
@@ -2887,9 +315,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Lucky Fever",
-		content = { summary = "Have 125 Base LUK", details = "Raise base Luck to 125." },
-		resource = { [1] = { text = "Have 125 Base LUK" } },
+		title = "幸运狂热",
+		content = { summary = "完成净LUK 125", details = "属性LUK点数完成净125以上." },
+		resource = { [1] = { text = "完成净LUK 125 " } },
 		reward = { buff = 21 },
 		score = 20
 	},
@@ -2898,12 +326,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Avatar of Love and Hatred",
-		content = {
-			summary = "Reach Base Lv 99 as a Novice",
-			details = "Character is a Novice and reaches base level of 99."
-		},
-		resource = { [1] = { text = "Reach Base Lv 99 as a Novice" } },
+		title = "爱憎的化身",
+		content = { summary = "用初学者人物等级完成99级", details = "职业是初学者状态下人物等级完成99级." },
+		resource = { [1] = { text = "初学者状态下人物等级完成99级" } },
 		reward = { buff = 10, item = 16483 },
 		score = 30
 	},
@@ -2912,12 +337,9 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "I really like you!",
-		content = {
-			summary = "Reach Base Lv 99 as a First Job Class",
-			details = "Character has gained a First Job Class and reaches base level of 99."
-		},
-		resource = { [1] = { text = "Reach Base Lv 99 as a First Job Class" } },
+		title = "非常喜欢噢!",
+		content = { summary = "用1代职业群人物等级完成99级", details = "1代职业群转职的状态下角色的人物等级完成99级." },
+		resource = { [1] = { text = "用1代职业群人物等级完成99级" } },
 		reward = { buff = 10, item = 16504 },
 		score = 30
 	},
@@ -2926,13 +348,10 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Rebirth in Valhalla!",
-		content = {
-			summary = "Rebirth as a High Novice",
-			details = "Rebirth as a High Novice. Rebirthing is only possible through a Valkyrie."
-		},
-		resource = { [1] = { text = "Rebirth as a High Novice" } },
-		reward = { buff = 12, item = 603 },
+		title = "在巴哈拉重生!",
+		content = { summary = "转生转职为初学者", details = "转生转职为初学者.   跟巴基力对话才可以." },
+		resource = { [1] = { text = "转生转职为初学者" } },
+		reward = { buff = 12, item = 22808 },
 		score = 10
 	},
 	[230100] = {
@@ -2940,16 +359,13 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Poring is Love.",
-		content = {
-			summary = "Complete all target tasks",
-			details = "You are a true Poring lover who even dreams about Porings in your sleep!"
-		},
+		title = "波利是爱情",
+		content = { summary = "完成目标任务", details = "睡着的时候也因想到波利而醒来的你是真正的波利爱好者!" },
 		resource = {
-			[1] = { text = "Complete Task 'Poring - Taming'", shortcut = 230101 },
-			[2] = { text = "Complete Task 'Drops - Taming'", shortcut = 230102 },
-			[3] = { text = "Complete Task 'Poporing - Taming'", shortcut = 230103 },
-			[4] = { text = "Complete Task 'Little Poring - Taming'", shortcut = 230104 }
+			[1] = { text = "任务 '驯化波利' 完成", shortcut = 230101 },
+			[2] = { text = "任务 '驯化土波利' 完成", shortcut = 230102 },
+			[3] = { text = "任务 '驯化波波利' 完成", shortcut = 230103 },
+			[4] = { text = "任务 '宝贝波利驯化' 完成", shortcut = 230104 }
 		},
 		reward = { title = 1025, buff = 12 },
 		score = 50
@@ -2959,18 +375,15 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Entomologist",
-		content = {
-			summary = "Complete all target tasks",
-			details = "You are a true entomologist who even dreams about collecting insects in your sleep!"
-		},
+		title = "昆虫学家",
+		content = { summary = "完成目标任务", details = "睡着的时候也因想到采集而醒来的你是真正的昆虫学家!" },
 		resource = {
-			[1] = { text = "Complete Task 'Chonchon - Taming'", shortcut = 230111 },
-			[2] = { text = "Complete Task 'Steel Chonchon - Taming'", shortcut = 230112 },
-			[3] = { text = "Complete 'Hunter Fly - Taming' Task", shortcut = 230113 },
-			[4] = { text = "Complete 'Rocker - Taming' Task", shortcut = 230114 },
-			[5] = { text = "Complete 'Spore - Taming' Task", shortcut = 230115 },
-			[6] = { text = "Complete 'Poison Spore - Taming' Task", shortcut = 230116 }
+			[1] = { text = "任务 '驯化苍蝇' 完成", shortcut = 230111 },
+			[2] = { text = "任务 '驯化绿苍蝇' 完成", shortcut = 230112 },
+			[3] = { text = "任务 '驯化赤苍蝇' 完成", shortcut = 230113 },
+			[4] = { text = "任务 '驯化摇滚蝗虫' 完成", shortcut = 230114 },
+			[5] = { text = "任务 '驯化魔菇' 完成", shortcut = 230115 },
+			[6] = { text = "任务 '驯化毒魔菇' 完成", shortcut = 230116 }
 		},
 		reward = { title = 1026, buff = 12 },
 		score = 50
@@ -2980,20 +393,17 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Animals are our friends too",
-		content = {
-			summary = "Complete all target tasks",
-			details = "You are a true animal lover who even dreams about animal friends in your sleep!"
-		},
+		title = "动物也是我们的朋友",
+		content = { summary = "完成目标任务", details = "睡着的时候也因想到动物朋友而醒来的你是真正的动物爱好者!" },
 		resource = {
-			[1] = { text = "Complete 'Lunatic - Taming' Task", shortcut = 230121 },
-			[2] = { text = "Complete 'Picky - Taming' Task", shortcut = 230122 },
-			[3] = { text = "Complete 'Savage Babe - Taming' Task", shortcut = 230123 },
-			[4] = { text = "Complete 'Baby Desert Wolf - Taming' Task", shortcut = 230124 },
-			[5] = { text = "Complete 'Smokie - Taming' Task", shortcut = 230125 },
-			[6] = { text = "Complete 'Yoyo - Taming' Task", shortcut = 230126 },
-			[7] = { text = "Complete 'Pecopeco - Taming' Task", shortcut = 230127 },
-			[8] = { text = "Complete 'Petite - Taming' Task", shortcut = 230128 }
+			[1] = { text = "任务 '驯化疯兔' 完成", shortcut = 230121 },
+			[2] = { text = "任务 '驯化小鸡' 完成", shortcut = 230122 },
+			[3] = { text = "任务 '驯化小野猪' 完成", shortcut = 230123 },
+			[4] = { text = "任务 '驯化沙漠幼狼' 完成", shortcut = 230124 },
+			[5] = { text = "任务 '驯化狸猫' 完成", shortcut = 230125 },
+			[6] = { text = "任务 '驯化溜溜猴' 完成", shortcut = 230126 },
+			[7] = { text = "任务 '驯化大嘴鸟' 完成", shortcut = 230127 },
+			[8] = { text = "任务 '驯化毕帝特飞龙' 完成", shortcut = 230128 }
 		},
 		reward = { title = 1027, buff = 12 },
 		score = 50
@@ -3003,19 +413,16 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "We are the Monster Girls!",
-		content = {
-			summary = "Complete all target tasks",
-			details = "You are a true producer who even dreams about forming the Monster Girls in your sleep!"
-		},
+		title = "成立！怪物姐妹组!!",
+		content = { summary = "完成目标任务", details = "睡着的时候也因想到怪物姐妹组而醒来的你是真正的制片人!" },
 		resource = {
-			[1] = { text = "Complete 'Munak - Taming' Task", shortcut = 230141 },
-			[2] = { text = "Complete 'Isis - Taming' Task", shortcut = 230142 },
-			[3] = { text = "Complete 'Sohee - Taming' Task", shortcut = 230143 },
-			[4] = { text = "Complete 'Zealotus - Taming' Task", shortcut = 230144 },
-			[5] = { text = "Complete 'Alice - Taming' Task", shortcut = 230145 },
-			[6] = { text = "Complete 'Succubus - Taming' Task", shortcut = 230146 },
-			[7] = { text = "Complete 'Loli Ruri - Taming' Task", shortcut = 230147 }
+			[1] = { text = "任务 '驯化殭尸' 完成", shortcut = 230141 },
+			[2] = { text = "任务 '驯化蛇女伊丝' 完成", shortcut = 230142 },
+			[3] = { text = "任务 '驯化鬼女' 完成", shortcut = 230143 },
+			[4] = { text = "任务 '驯化艾斯恩魔女' 完成", shortcut = 230144 },
+			[5] = { text = "任务 '驯化艾丽斯女仆' 完成", shortcut = 230145 },
+			[6] = { text = "任务 '驯化恶魔女仆' 完成", shortcut = 230146 },
+			[7] = { text = "任务 '驯化银月魔女' 完成", shortcut = 230147 }
 		},
 		reward = { title = 1029, buff = 12 },
 		score = 50
@@ -3025,12 +432,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poring - Taming",
-		content = {
-			summary = "Successfully tame a Poring",
-			details = "Tame a Poring to become your pet. You can tame it with 'Unripe Apple'."
-		},
-		resource = { [1] = { text = "Successfully tame a Poring" } },
+		title = "驯化波利",
+		content = { summary = "成功认养波利", details = "让波利做我们宠物吧。可以用“青苹果”道具诱惑." },
+		resource = { [1] = { text = "成功认养波利" } },
 		reward = {},
 		score = 10
 	},
@@ -3039,12 +443,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Drops - Taming",
-		content = {
-			summary = "Successfully tame a Drops",
-			details = "Tame a Drops to become your pet. You can tame it with 'Orange Juice'."
-		},
-		resource = { [1] = { text = "Successfully tame a Drops" } },
+		title = "驯化土波利",
+		content = { summary = "成功认养土波利", details = "让土波利做我们宠物吧。可以用“浓缩柳橙汁”道具诱惑." },
+		resource = { [1] = { text = "成功认养土波利" } },
 		reward = {},
 		score = 10
 	},
@@ -3053,12 +454,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poporing - Taming",
-		content = {
-			summary = "Successfully tame a Poporing",
-			details = "Tame a Poporing to become your pet. You can tame it with 'Bitter Herb'."
-		},
-		resource = { [1] = { text = "Successfully tame a Poporing" } },
+		title = "驯化波利",
+		content = { summary = "成功认养波波利", details = "让波波利做我们宠物吧。可以用“苦味草”道具诱惑." },
+		resource = { [1] = { text = "成功认养波波利" } },
 		reward = {},
 		score = 10
 	},
@@ -3067,12 +465,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Little Poring - Taming",
-		content = {
-			summary = "Successfully tame a Little Poring",
-			details = "Tame a Little Poring to become your pet. You can tame it with 'Little Unripe Apple'."
-		},
-		resource = { [1] = { text = "Successfully tame a Little Poring" } },
+		title = "宝贝波利驯化",
+		content = { summary = "成功认养宝贝波利", details = "让宝贝波利做我们宠物吧。可以用“青苹果”道具诱惑." },
+		resource = { [1] = { text = "成功认养宝贝波利" } },
 		reward = {},
 		score = 10
 	},
@@ -3081,12 +476,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Chonchon - Taming",
-		content = {
-			summary = "Successfully tame a Chonchon",
-			details = "Tame a Chonchon to become your pet. You can tame it with 'Rotten Fish'."
-		},
-		resource = { [1] = { text = "Successfully tame a Chonchon" } },
+		title = "驯化苍蝇",
+		content = { summary = "成功认养苍蝇", details = "让苍蝇做我们宠物吧。可以用“腐臭之鱼”道具诱惑" },
+		resource = { [1] = { text = "成功认养苍蝇" } },
 		reward = {},
 		score = 10
 	},
@@ -3095,12 +487,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Steel Chonchon - Taming",
-		content = {
-			summary = "Successfully tame a Steel Chonchon",
-			details = "Tame a Steel Chonchon to become your pet. You can tame it with 'Rusty Iron'."
-		},
-		resource = { [1] = { text = "Successfully tame a Steel Chonchon" } },
+		title = "驯化绿苍蝇",
+		content = { summary = "成功认养绿苍蝇", details = "让绿苍蝇做我们宠物吧。可以用“锈铁”道具诱惑." },
+		resource = { [1] = { text = "成功认养绿苍蝇" } },
 		reward = {},
 		score = 10
 	},
@@ -3109,12 +498,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Hunter Fly - Taming",
-		content = {
-			summary = "Successfully tame a Hunter Fly",
-			details = "Tame a Hunter Fly to become your pet. You can tame it with 'Monster Juice'."
-		},
-		resource = { [1] = { text = "Successfully tame a Hunter Fly" } },
+		title = "驯化赤苍蝇",
+		content = { summary = "成功认养赤苍蝇", details = "让赤苍蝇做我们宠物吧。可以用“魔物饮料”道具诱惑." },
+		resource = { [1] = { text = "成功认养赤苍蝇" } },
 		reward = {},
 		score = 10
 	},
@@ -3123,12 +509,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Rocker - Taming",
-		content = {
-			summary = "Successfully tame a Rocker",
-			details = "Tame a Rocker to become your pet. You can tame it with 'Singing Flower'."
-		},
-		resource = { [1] = { text = "Successfully tame a Rocker" } },
+		title = "驯化摇滚蝗虫",
+		content = { summary = "成功认养摇滚蝗虫", details = "让摇滚蝗虫做我们宠物吧。可以用“呢喃花”道具诱惑." },
+		resource = { [1] = { text = "成功认养摇滚蝗虫" } },
 		reward = {},
 		score = 10
 	},
@@ -3137,12 +520,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Spore - Taming",
-		content = {
-			summary = "Successfully tame a Spore",
-			details = "Tame a Spore to become your pet. You can tame it with 'Dew Laden Moss'."
-		},
-		resource = { [1] = { text = "Successfully tame a Spore" } },
+		title = "驯化魔菇",
+		content = { summary = "成功认养魔菇", details = "让蘑菇做我们宠物吧。可以用“青苔”道具诱惑." },
+		resource = { [1] = { text = "成功认养魔菇" } },
 		reward = {},
 		score = 10
 	},
@@ -3151,12 +531,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poison Spore - Taming",
-		content = {
-			summary = "Successfully tame a Poison Spore",
-			details = "Tame a Poison Spore to become your pet. You can tame it with 'Deadly Noxious Herb'."
-		},
-		resource = { [1] = { text = "Successfully tame a Poison Spore" } },
+		title = "驯化毒魔菇",
+		content = { summary = "成功认养毒魔菇", details = "让毒蘑菇做我们宠物吧。可以用“青嫩毒草”道具诱惑." },
+		resource = { [1] = { text = "成功认养毒魔菇" } },
 		reward = {},
 		score = 10
 	},
@@ -3165,12 +542,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Lunatic - Taming",
-		content = {
-			summary = "Successfully tame a Lunatic",
-			details = "Tame a Lunatic to become your pet. You can tame it with 'Rainbow Carrot'."
-		},
-		resource = { [1] = { text = "Successfully tame a Lunatic" } },
+		title = "驯化疯兔",
+		content = { summary = "成功认养疯兔", details = "让疯兔做我们宠物吧。可以用“彩色红萝卜”道具诱惑." },
+		resource = { [1] = { text = "成功认养疯兔" } },
 		reward = {},
 		score = 10
 	},
@@ -3179,12 +553,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Picky - Taming",
-		content = {
-			summary = "Successfully tame a Picky",
-			details = "Tame a Picky to become your pet. You can tame it with 'Earthworm the Dude'."
-		},
-		resource = { [1] = { text = "Successfully tame a Picky" } },
+		title = "驯化小鸡",
+		content = { summary = "成功认养小鸡", details = "让小鸡做我们宠物吧。可以用“变态蚯蚓”道具诱惑." },
+		resource = { [1] = { text = "成功认养小鸡" } },
 		reward = {},
 		score = 10
 	},
@@ -3193,12 +564,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Savage Babe - Taming",
-		content = {
-			summary = "Successfully tame a Savage Babe",
-			details = "Tame a Savage Babe to become your pet. You can tame it with 'Sweet Milk'."
-		},
-		resource = { [1] = { text = "Successfully tame a Savage Babe" } },
+		title = "驯化小野猪",
+		content = { summary = "成功认养小野猪", details = "让小野猪做我们宠物吧。可以用“魔物牛奶”道具诱惑." },
+		resource = { [1] = { text = "成功认养小野猪" } },
 		reward = {},
 		score = 10
 	},
@@ -3207,12 +575,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Baby Desert Wolf - Taming",
-		content = {
-			summary = "Successfully tame a Baby Desert Wolf",
-			details = "Tame a Baby Desert Wolf to become your pet. You can tame it with 'Well-dried Bone'."
-		},
-		resource = { [1] = { text = "Successfully tame a Baby Desert Wolf" } },
+		title = "驯化沙漠幼狼",
+		content = { summary = "成功认养沙漠幼狼", details = "让沙漠幼狼做我们宠物吧。可以用“营养大骨”道具诱惑." },
+		resource = { [1] = { text = "成功认养沙漠幼狼" } },
 		reward = {},
 		score = 10
 	},
@@ -3221,12 +586,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Smokie - Taming",
-		content = {
-			summary = "Successfully tame a Smokie",
-			details = "Tame a Smokie to become your pet. You can tame it with 'Sweet Potato'."
-		},
-		resource = { [1] = { text = "Successfully tame a Smokie" } },
+		title = "驯化狸猫",
+		content = { summary = "成功认养狸猫", details = "让狸猫做我们宠物吧。可以用“魔物番薯”道具诱惑." },
+		resource = { [1] = { text = "成功认养狸猫" } },
 		reward = {},
 		score = 10
 	},
@@ -3235,12 +597,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Yoyo - Taming",
-		content = {
-			summary = "Successfully tame a Yoyo",
-			details = "Tame a Yoyo to become your pet. You can tame it with 'Tropical Banana'."
-		},
-		resource = { [1] = { text = "Successfully tame a Yoyo" } },
+		title = "驯化溜溜猴",
+		content = { summary = "成功认养溜溜猴", details = "让溜溜猴做我们宠物吧。可以用“魔物香蕉”道具诱惑." },
+		resource = { [1] = { text = "成功认养溜溜猴" } },
 		reward = {},
 		score = 10
 	},
@@ -3249,12 +608,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Pecopeco - Taming",
-		content = {
-			summary = "Successfully tame a Pecopeco",
-			details = "Tame a Pecopeco to become your pet. You can tame it with 'Fatty Chubby Earthworm'."
-		},
-		resource = { [1] = { text = "Successfully tame a Pecopeco" } },
+		title = "驯化大嘴鸟",
+		content = { summary = "成功认养大嘴鸟", details = "让大嘴鸟做我们宠物吧。可以用“营养蚯蚓”道具诱惑." },
+		resource = { [1] = { text = "成功认养大嘴鸟" } },
 		reward = {},
 		score = 10
 	},
@@ -3263,12 +619,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Petite - Taming",
-		content = {
-			summary = "Successfully tame a Petite",
-			details = "Tame a Petite to become your pet. You can tame it with 'Shining Stone'."
-		},
-		resource = { [1] = { text = "Successfully tame a Petite" } },
+		title = "驯化毕帝特飞龙",
+		content = { summary = "成功认养 毕帝特飞龙", details = "让毕帝特飞龙做我们宠物吧。可以用“闪烁之石”道具诱惑." },
+		resource = { [1] = { text = "成功认养 毕帝特飞龙" } },
 		reward = {},
 		score = 10
 	},
@@ -3277,12 +630,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Munak - Taming",
-		content = {
-			summary = "Successfully tame a Munak",
-			details = "Tame a Munak to become your pet. You can tame it with 'No Recipient'."
-		},
-		resource = { [1] = { text = "Successfully tame a Munak" } },
+		title = "驯化殭尸",
+		content = { summary = "成功认养殭尸", details = "让殭尸做我们宠物吧。可以用“魔物信件”道具诱惑." },
+		resource = { [1] = { text = "成功认养殭尸" } },
 		reward = {},
 		score = 10
 	},
@@ -3291,12 +641,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Isis - Taming",
-		content = {
-			summary = "Successfully tame an Isis",
-			details = "Tame an Isis to become your pet. You can tame it with 'Armlet of Obedience'."
-		},
-		resource = { [1] = { text = "Successfully tame an Isis" } },
+		title = "驯化蛇女伊丝",
+		content = { summary = "成功认养蛇女伊丝", details = "让蛇女伊丝做我们宠物吧。可以用“驯服手镯”道具诱惑." },
+		resource = { [1] = { text = "成功认养蛇女伊丝" } },
 		reward = {},
 		score = 10
 	},
@@ -3305,12 +652,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Sohee - Taming",
-		content = {
-			summary = "Successfully tame a Sohee",
-			details = "Tame a Sohee to become your pet. You can tame it with 'Silver Knife of Chastity'."
-		},
-		resource = { [1] = { text = "Successfully tame a Sohee" } },
+		title = "驯化鬼女",
+		content = { summary = "成功认养鬼女", details = "让鬼女做我们宠物吧。可以用“纯洁银刃”道具诱惑." },
+		resource = { [1] = { text = "成功认养鬼女" } },
 		reward = {},
 		score = 10
 	},
@@ -3319,12 +663,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Zealotus - Taming",
-		content = {
-			summary = "Successfully tame a Zealotus",
-			details = "Tame a Zealotus to become your pet. You can tame it with 'Forbidden Red Candle'."
-		},
-		resource = { [1] = { text = "Successfully tame a Zealotus" } },
+		title = "驯化艾斯恩魔女",
+		content = { summary = "成功认养艾斯恩魔女", details = "让艾斯恩魔女做我们宠物吧。可以用“红色蜡烛”道具诱惑." },
+		resource = { [1] = { text = "成功认养艾斯恩魔女" } },
 		reward = {},
 		score = 10
 	},
@@ -3333,12 +674,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Alice - Taming",
-		content = {
-			summary = "Successfully tame an Alice",
-			details = "Tame an Alice to become your pet. You can tame it with 'Soft Apron'."
-		},
-		resource = { [1] = { text = "Successfully tame an Alice" } },
+		title = "驯化艾丽斯女仆",
+		content = { summary = "成功认养艾丽斯女仆", details = "让艾丽斯女仆做我们宠物吧。可以用“摇曳的围裙”道具诱惑." },
+		resource = { [1] = { text = "成功认养艾丽斯女仆" } },
 		reward = {},
 		score = 10
 	},
@@ -3347,12 +685,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Succubus - Taming",
-		content = {
-			summary = "Successfully tame a Succubus",
-			details = "Tame a Succubus to become your pet. You can tame it with 'Boy's Pure Heart'."
-		},
-		resource = { [1] = { text = "Successfully tame a Succubus" } },
+		title = "驯化恶魔女仆",
+		content = { summary = "成功认养恶魔女仆", details = "让恶魔女仆做我们宠物吧。可以用“少年的情书”道具诱惑." },
+		resource = { [1] = { text = "成功认养恶魔女仆" } },
 		reward = {},
 		score = 10
 	},
@@ -3361,12 +696,9 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Loli Ruri - Taming",
-		content = {
-			summary = "Successfully tame a Loli Ruri",
-			details = "Tame a Loli Ruri to become your pet. You can tame it with 'Very Red Juice'."
-		},
-		resource = { [1] = { text = "Successfully tame a Loli Ruri" } },
+		title = "驯化银月魔女",
+		content = { summary = "成功认养银月魔女", details = "让银月魔女做我们宠物吧。可以用“红色果汁”道具诱惑。" },
+		resource = { [1] = { text = "成功认养银月魔女" } },
 		reward = {},
 		score = 10
 	},
@@ -3375,12 +707,9 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 1,
 		minor = 2,
-		title = "Start Community",
-		content = {
-			summary = "Open Chat Window",
-			details = "Open the chat window. The shortcut is ALT + C (default)."
-		},
-		resource = { [1] = { text = "Open Chat Window" } },
+		title = "开始对话",
+		content = { summary = "生成对话窗", details = "开始生成对话窗吧。快捷键是ALT + C（基本）。" },
+		resource = { [1] = { text = "生成对话窗" } },
 		reward = {},
 		score = 10
 	},
@@ -3389,12 +718,9 @@ achievement_tbl = {
 		group = "CHATTING_DYING",
 		major = 1,
 		minor = 2,
-		title = "Grim Chatterbox",
-		content = {
-			summary = "Open the chat window while dead",
-			details = "Even death can't stop you from talking... Open the chat window while dead. The shortcut is ALT + C (default)."
-		},
-		resource = { [1] = { text = "Open Chat Window while dead" } },
+		title = "只会耍嘴皮子",
+		content = { summary = "在死的状态下生成对话窗", details = "就会耍嘴皮子..死的状态下开始生成对话窗吧。快捷键是ALT + C（基本）." },
+		resource = { [1] = { text = "死的状态下" } },
 		reward = {},
 		score = 10
 	},
@@ -3403,12 +729,9 @@ achievement_tbl = {
 		group = "CHATTING20",
 		major = 1,
 		minor = 2,
-		title = "Chattering Away",
-		content = {
-			summary = "Have 20 people in the chat window",
-			details = "Have everyone gather for a chat. Open the chat window and fill it full with 20 people."
-		},
-		resource = { [1] = { text = "Have 20 people in the chat window" } },
+		title = "专注聊天",
+		content = { summary = "对话窗人员填满20名", details = "大家一起聚起来聊天.生成的聊天室人员填满到20名." },
+		resource = { [1] = { text = "对话窗人员填满20名" } },
 		reward = {},
 		score = 10
 	},
@@ -3417,12 +740,9 @@ achievement_tbl = {
 		group = "ADD_FRIEND",
 		major = 1,
 		minor = 2,
-		title = "Friend... My friend...",
-		content = {
-			summary = "Add 1 friend to your Friend List",
-			details = "Look for a friend to join your adventure. Add 1 friend to your Friend List."
-		},
-		resource = { [1] = { text = "Add 1 friend to your Friend List" } },
+		title = "朋友啊~ 朋友啊~",
+		content = { summary = "添加一个朋友", details = "招募跟你一起冒险的朋友.添加一个朋友." },
+		resource = { [1] = { text = "添加一个朋友" } },
 		reward = {},
 		score = 10
 	},
@@ -3431,12 +751,9 @@ achievement_tbl = {
 		group = "ADD_FRIEND",
 		major = 1,
 		minor = 2,
-		title = "Heartthrob",
-		content = {
-			summary = "Add 10 friends to your Friend List",
-			details = "More friends the merrier. Become friends with 10 people."
-		},
-		resource = { [1] = { text = "Add 10 friends to your Friend List" } },
+		title = "人气王",
+		content = { summary = "添加10名朋友", details = "朋友越多越好.请跟10个人做朋友." },
+		resource = { [1] = { text = "添加10名朋友" } },
 		reward = {},
 		score = 10
 	},
@@ -3446,11 +763,8 @@ achievement_tbl = {
 		major = 1,
 		minor = 2,
 		title = "Let's Party~",
-		content = {
-			summary = "Form a Party",
-			details = "No more single, arduous adventuring! Overcome obstacles as a party."
-		},
-		resource = { [1] = { text = "Form a Party" } },
+		content = { summary = "组队", details = "一个人艰难的冒险到此停止！组成队伍一起战胜困难." },
+		resource = { [1] = { text = "组队" } },
 		reward = {},
 		score = 10
 	},
@@ -3459,12 +773,9 @@ achievement_tbl = {
 		group = "MARRY",
 		major = 1,
 		minor = 2,
-		title = "Are you married...?",
-		content = {
-			summary = "Marry someone",
-			details = "In this tough and lonely world, only love lets you protect each other. Marry someone to seal your love."
-		},
-		resource = { [1] = { text = "Marry someone" } },
+		title = "结婚了吗..?",
+		content = { summary = "成功结婚", details = "又累又难的世界，只有爱情能守护对方。来结婚吧。" },
+		resource = { [1] = { text = "成功结婚" } },
 		reward = { title = 1022 },
 		score = 20
 	},
@@ -3473,12 +784,9 @@ achievement_tbl = {
 		group = "BABY",
 		major = 1,
 		minor = 2,
-		title = "Could you look after me?",
-		content = {
-			summary = "Adopted by someone",
-			details = "Navigate this harsh world with the help of your parents."
-		},
-		resource = { [1] = { text = "Adopted by someone" } },
+		title = "可以养我么?",
+		content = { summary = "被养父母收养", details = "在父母的帮助下,在这个凶险的世界上克服困难." },
+		resource = { [1] = { text = "被养父母收养" } },
 		reward = { title = 1032 },
 		score = 20
 	},
@@ -3487,12 +795,9 @@ achievement_tbl = {
 		group = "BABY",
 		major = 1,
 		minor = 2,
-		title = "Becoming a Parent",
-		content = {
-			summary = "Adopt a child",
-			details = "Children are bliss. Adopt a child and build a happy and loving family."
-		},
-		resource = { [1] = { text = "Adopt a child" } },
+		title = "成为父母",
+		content = { summary = "领养孩子", details = "有孩子真幸福.通过领养组成美丽的家庭吧." },
+		resource = { [1] = { text = "领养孩子" } },
 		reward = { title = 1033 },
 		score = 20
 	},
@@ -3501,12 +806,9 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Vitalize Markey Economy (1)",
-		content = {
-			summary = "Spend at least 10000 Zeny at shops",
-			details = "Money goes around and around. Spend 10000 Zeny on buying items from other players' stores. "
-		},
-		resource = { [1] = { text = "Spend at least 10000 Zeny at shops", count = 10000 }, count = 500000000 },
+		title = "激活市场经济 (1)",
+		content = { summary = "通过商店消费1万zeny", details = "钱是有来道去的.前往其他玩家的商店上购买1万zeny的道具. " },
+		resource = { [1] = { text = "通过商店消费1万zeny", count = 10000 }, count = 500000000 },
 		reward = {},
 		score = 10
 	},
@@ -3515,15 +817,9 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Vitalize Markey Economy (2)",
-		content = {
-			summary = "Spend at least 1 million Zeny at shops",
-			details = "Money goes around and around. Spend 1 million Zeny on buying items from other players' stores. "
-		},
-		resource = {
-			[1] = { text = "Spend at least 1 million Zeny at shops", count = 1000000 },
-			count = 500000000
-		},
+		title = "激活市场经济 (2)",
+		content = { summary = "通过商店消费一百万以上zeny", details = "钱是有来道去的.前往其他玩的家商店里购买一百万zeny的道具. " },
+		resource = { [1] = { text = "通过商店消费一百万以上zeny", count = 1000000 }, count = 500000000 },
 		reward = {},
 		score = 15
 	},
@@ -3532,15 +828,9 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Vitalize Markey Economy (3)",
-		content = {
-			summary = "Spend at least 5 million Zeny at shops",
-			details = "Money goes around and around. Spend 5 million Zeny on buying items from other players' stores. "
-		},
-		resource = {
-			[1] = { text = "Spend at least 5 million Zeny at shops", count = 5000000 },
-			count = 500000000
-		},
+		title = "激活市场经济 (3)",
+		content = { summary = "通过商店消费五百万以上zeny", details = "钱是有来道去的.前往其他玩的家商店里购买五百万zeny的道具. " },
+		resource = { [1] = { text = "通过商店消费五百万以上zeny", count = 5000000 }, count = 500000000 },
 		reward = {},
 		score = 20
 	},
@@ -3549,15 +839,9 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Vitalize Markey Economy (4)",
-		content = {
-			summary = "Spend at least 100 million Zeny at shops",
-			details = "Money goes around and around. Spend 100 million Zeny on buying items from other players' stores. "
-		},
-		resource = {
-			[1] = { text = "Spend at least 100 million Zeny at shops", count = 100000000 },
-			count = 500000000
-		},
+		title = "激活市场经济 (4)",
+		content = { summary = "通过商店消费一亿以上zeny", details = "钱是有来道去的.前往其他玩的家商店里购买一亿zeny的道具. " },
+		resource = { [1] = { text = "通过商店消费一亿以上zeny", count = 100000000 }, count = 500000000 },
 		reward = {},
 		score = 30
 	},
@@ -3566,12 +850,9 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Vitalize Markey Economy (5)",
-		content = {
-			summary = "Spend at least 500 million Zeny at shops",
-			details = "Money goes around and around. Spend 500 million Zeny on buying items from other players' stores. "
-		},
-		resource = { [1] = { text = "Spend at least 500 million Zeny at shops", count = 500000000 } },
+		title = "激活市场经济 (5)",
+		content = { summary = "通过商店消费五亿以上zeny", details = "钱是有来道去的.前往其他玩的家商店里购买五亿zeny的道具. " },
+		resource = { [1] = { text = "通过商店消费五亿以上zeny", count = 500000000 } },
 		reward = {},
 		score = 50
 	},
@@ -3580,12 +861,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (1)",
-		content = {
-			summary = "Successfully refine a Lv. 1 weapon to +7 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 1 weapon to +7 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 1 weapon to +7 refinement" } },
+		title = "不能放弃精炼! (1)",
+		content = { summary = "武器1等级成功精炼到7", details = "我的幸运难道就到这了么？ 武器1等级成功精炼到7." },
+		resource = { [1] = { text = "武器1等级成功精炼到7" } },
 		reward = {},
 		score = 10
 	},
@@ -3594,12 +872,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (2)",
-		content = {
-			summary = "Successfully refine a Lv. 1 weapon to +12 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 1 weapon to +12 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 1 weapon to +12 refinement" } },
+		title = "不能放弃精炼! (2)",
+		content = { summary = "武器1等级成功精炼到12", details = "我的幸运难道就到这了么？ 武器1等级成功精炼到12." },
+		resource = { [1] = { text = "武器1等级成功精炼到12" } },
 		reward = {},
 		score = 15
 	},
@@ -3608,12 +883,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (3)",
-		content = {
-			summary = "Successfully refine a Lv. 2 weapon to +7 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 2 weapon to +7 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 2 weapon to +7 refinement" } },
+		title = "不能放弃精炼! (3)",
+		content = { summary = "武器2等级成功精炼到7", details = "我的幸运难道就到这了么？ 武器2等级成功精炼到7." },
+		resource = { [1] = { text = "武器2等级成功精炼到7" } },
 		reward = {},
 		score = 10
 	},
@@ -3622,12 +894,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (4)",
-		content = {
-			summary = "Successfully refine a Lv. 2 weapon to +12 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 2 weapon to +12 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 2 weapon to +12 refinement" } },
+		title = "不能放弃精炼! (4)",
+		content = { summary = "武器2等级成功精炼到12", details = "我的幸运难道就到这了么？ 武器2等级成功精炼到12." },
+		resource = { [1] = { text = "武器2等级成功精炼到12" } },
 		reward = {},
 		score = 15
 	},
@@ -3636,12 +905,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (5)",
-		content = {
-			summary = "Successfully refine a Lv. 3 weapon to +7 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 3 weapon to +7 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 3 weapon to +7 refinement" } },
+		title = "不能放弃精炼! (5)",
+		content = { summary = "武器3等级成功精炼到7", details = "我的幸运难道就到这了么？ 武器3等级成功精炼到7." },
+		resource = { [1] = { text = "武器3等级成功精炼到7" } },
 		reward = {},
 		score = 15
 	},
@@ -3650,12 +916,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (6)",
-		content = {
-			summary = "Successfully refine a Lv. 3 weapon to +12 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 3 weapon to +12 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 3 weapon to +12 refinement" } },
+		title = "不能放弃精炼! (6)",
+		content = { summary = "武器3等级成功精炼到12", details = "我的幸运难道就到这了么？ 武器3等级成功精炼到12." },
+		resource = { [1] = { text = "武器3等级成功精炼到12" } },
 		reward = {},
 		score = 20
 	},
@@ -3664,12 +927,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (7)",
-		content = {
-			summary = "Successfully refine a Lv. 4 weapon to +7 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 4 weapon to +7 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 4 weapon to +7 refinement" } },
+		title = "不能放弃精炼! (7)",
+		content = { summary = "武器4等级成功精炼到7", details = "我的幸运难道就到这了么？ 武器4等级成功精炼到7." },
+		resource = { [1] = { text = "武器4等级成功精炼到7" } },
 		reward = {},
 		score = 20
 	},
@@ -3678,12 +938,9 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "Can't Stop Refining! (8)",
-		content = {
-			summary = "Successfully refine a Lv. 4 weapon to +12 refinement",
-			details = "How far your luck can take you? Successfully refine a Lv. 4 weapon to +12 refinement."
-		},
-		resource = { [1] = { text = "Successfully refine a Lv. 4 weapon to +12 refinement" } },
+		title = "不能放弃精炼! (8)",
+		content = { summary = "武器4等级成功精炼到12", details = "我的幸运难道就到这了么？ 武器4等级成功精炼到12." },
+		resource = { [1] = { text = "武器4等级成功精炼到12" } },
 		reward = {},
 		score = 30
 	},
@@ -3692,12 +949,12 @@ achievement_tbl = {
 		group = "ENCHANT_FAIL",
 		major = 1,
 		minor = 1,
-		title = "Man's greed knows no bounds...",
+		title = "人类的欲望是无止境的..",
 		content = {
-			summary = "And experiences refining failure",
-			details = "Man's greed knows no bounds and makes same mistakes. But Man also grows by learning from mistakes. Experience a refining failure."
+			summary = "经历精炼失败",
+			details = "人类的欲望是无止境的 总是在反复同样的失误. 但是,也会在失误中吸取教训不断成长. 去经历精炼失败吧."
 		},
-		resource = { [1] = { text = "Experience refining failure" } },
+		resource = { [1] = { text = "经历精炼失败" } },
 		reward = {},
 		score = 10
 	},
@@ -3706,12 +963,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (1)",
-		content = {
-			summary = "Obtain an item worth at least 100 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 100 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 100 Zeny" } },
+		title = "真走运! (1)",
+		content = { summary = "获得100以上zeny价值的道具", details = "我也能有这样的幸运！出售给NPC时获取100以上zeny价值的道具." },
+		resource = { [1] = { text = "获得100以上zeny价值的道具" } },
 		reward = {},
 		score = 10
 	},
@@ -3720,12 +974,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (2)",
-		content = {
-			summary = "Obtain an item worth at least 1000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 1000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 1000 Zeny" } },
+		title = "真走运! (2)",
+		content = { summary = "获取1000以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取1000以上zeny价值的道具." },
+		resource = { [1] = { text = "获取1000以上zeny价值的道具" } },
 		reward = {},
 		score = 10
 	},
@@ -3734,12 +985,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (3)",
-		content = {
-			summary = "Obtain an item worth at least 5000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 5000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 5000 Zeny" } },
+		title = "真走运!(3)",
+		content = { summary = "获取5000以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取5000以上zeny价值的道具." },
+		resource = { [1] = { text = "获取5000以上zeny价值的道具" } },
 		reward = {},
 		score = 15
 	},
@@ -3748,12 +996,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (4)",
-		content = {
-			summary = "Obtain an item worth at least 10000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 10000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 10000 Zeny" } },
+		title = "真走运! (4)",
+		content = { summary = "获取一万以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取一万以上zeny价值的道具." },
+		resource = { [1] = { text = "获取一万以上zeny价值的道具" } },
 		reward = {},
 		score = 15
 	},
@@ -3762,12 +1007,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (5)",
-		content = {
-			summary = "Obtain an item worth at least 50000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 50000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 50000 Zeny" } },
+		title = "真走运! (5)",
+		content = { summary = "获取 五万以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取 五万以上zeny价值的道具." },
+		resource = { [1] = { text = "获取 五万以上zeny价值的道具" } },
 		reward = {},
 		score = 20
 	},
@@ -3776,12 +1018,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (6)",
-		content = {
-			summary = "Obtain an item worth at least 100000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 100000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 100000 Zeny" } },
+		title = "真走运! (6)",
+		content = { summary = "获取 十万以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取 十万以上zeny价值的道具." },
+		resource = { [1] = { text = "获取 十万以上zeny价值的道具" } },
 		reward = {},
 		score = 20
 	},
@@ -3790,12 +1029,9 @@ achievement_tbl = {
 		group = "GET_ITEM",
 		major = 1,
 		minor = 1,
-		title = "Jackpot! (7)",
-		content = {
-			summary = "Obtain an item worth at least 150000 Zeny",
-			details = "I can't believe my luck! Obtain an item worth at least 150000 Zeny when selling to an NPC."
-		},
-		resource = { [1] = { text = "Obtain an item worth at least 150000 Zeny" } },
+		title = "真走运! (7)",
+		content = { summary = "获取十 五万以上zeny价值的道具", details = "我也会这种幸运! 出售给NPC时,获取十 五万以上zeny价值的道具." },
+		resource = { [1] = { text = "获取十 五万以上zeny价值的道具" } },
 		reward = {},
 		score = 30
 	},
@@ -3804,12 +1040,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (1)",
-		content = {
-			summary = "Have at least 10000 Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 10000 Zeny."
-		},
-		resource = { [1] = { text = "Have at least 10000 Zeny" } },
+		title = "富人王 (1)",
+		content = { summary = "拥有一万以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒1万zeny." },
+		resource = { [1] = { text = "持有一万以上zeny" } },
 		reward = {},
 		score = 10
 	},
@@ -3818,12 +1051,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (2)",
-		content = {
-			summary = "Have at least 100000 Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 100000 Zeny."
-		},
-		resource = { [1] = { text = "Have at least 100000 Zeny" } },
+		title = "富人王 (2)",
+		content = { summary = "持有10万以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒10万zeny." },
+		resource = { [1] = { text = "持有10万以上zeny" } },
 		reward = {},
 		score = 15
 	},
@@ -3832,12 +1062,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (3)",
-		content = {
-			summary = "Have at least 1 million Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 1 million Zeny."
-		},
-		resource = { [1] = { text = "Have at least 1 million Zeny" } },
+		title = "富人王 (3)",
+		content = { summary = "持有一百万以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒一百万zeny." },
+		resource = { [1] = { text = "持有一百万以上zeny" } },
 		reward = {},
 		score = 20
 	},
@@ -3846,12 +1073,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (4)",
-		content = {
-			summary = "Have at least 10 million Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 10 million Zeny."
-		},
-		resource = { [1] = { text = "Have at least 10 million Zeny" } },
+		title = "富人王 (4)",
+		content = { summary = "持有一千万以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒一千万zeny." },
+		resource = { [1] = { text = "持有一千万以上zeny" } },
 		reward = {},
 		score = 25
 	},
@@ -3860,12 +1084,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (5)",
-		content = {
-			summary = "Have at least 100 million Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 100 million Zeny."
-		},
-		resource = { [1] = { text = "Have at least 100 million Zeny" } },
+		title = "富人王 (5)",
+		content = { summary = "持有一亿以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒一亿zeny." },
+		resource = { [1] = { text = "持有一亿以上zeny" } },
 		reward = {},
 		score = 30
 	},
@@ -3874,12 +1095,9 @@ achievement_tbl = {
 		group = "GET_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Rich King (6)",
-		content = {
-			summary = "Have at least 1 billion Zeny",
-			details = "Money Isn't everything, but you can't live without it. Try to save 1 billion Zeny."
-		},
-		resource = { [1] = { text = "Have at least 1 billion Zeny" } },
+		title = "富人王 (6)",
+		content = { summary = "持有十亿以上zeny", details = "虽然钱不是全部 但也不可以没有. 攒十亿zeny." },
+		resource = { [1] = { text = "持有十亿以上zeny" } },
 		reward = {},
 		score = 40
 	},
@@ -3888,15 +1106,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Poring Researcher",
-		content = {
-			summary = "Complete all target tasks",
-			details = "Porings are enigmatic creatures that are neither plants nor animals. The best way to learn about them is to see them face to face and experience what they are like."
-		},
+		title = "波利探索者",
+		content = { summary = "完成目标任务", details = "不是植物也不是动物的奇妙生物体波利,你想要了解波利直接当面体验就是最好的办法." },
 		resource = {
-			[1] = { text = "Complete Task 'Poring Research (1)'", shortcut = 230201 },
-			[2] = { text = "Complete Task 'Poring Research (2)'", shortcut = 230202 },
-			[3] = { text = "Complete Task 'Poring Research (3)'", shortcut = 230203 }
+			[1] = { text = "任务 '探究波利的生活 (1)' 完成", shortcut = 230201 },
+			[2] = { text = "任务 '探究波利的生活 (2)' 完成", shortcut = 230202 },
+			[3] = { text = "任务 '探究波利的生活 (3)' 完成", shortcut = 230203 }
 		},
 		reward = {},
 		score = 10
@@ -3906,17 +1121,14 @@ achievement_tbl = {
 		group = "BATTLE",
 		major = 3,
 		minor = 1,
-		title = "Poring Research (1)",
-		content = {
-			summary = "Hunt all targets",
-			details = "Their features vary a lot depending in their habitat. They are easy targets, so relax and go for them."
-		},
+		title = "探究波利的生活 (1)",
+		content = { summary = "打猎目标猎物", details = "根据栖息地环境而外貌不同是特点。简单了解一下吧。" },
 		resource = {
-			[1] = { text = "Hunt Poring 10 times", count = 10 },
-			[2] = { text = "Hunt Little Poring 10 times", count = 10 },
-			[3] = { text = "Hunt Drops 10 times", count = 10 },
-			[4] = { text = "Hunt Poporing 10 times", count = 10 },
-			[5] = { text = "Hunt Marin 10 times", count = 10 }
+			[1] = { text = "打猎波利10次", count = 10 },
+			[2] = { text = "打猎宝贝波利10次", count = 10 },
+			[3] = { text = "打猎土波利10次", count = 10 },
+			[4] = { text = "打猎波波利10次", count = 10 },
+			[5] = { text = "打猎波冰波利10次", count = 10 }
 		},
 		reward = {},
 		score = 10
@@ -3926,35 +1138,29 @@ achievement_tbl = {
 		group = "BATTLE",
 		major = 3,
 		minor = 1,
-		title = "Poring Research (2)",
-		content = {
-			summary = "Hunt all targets",
-			details = "There are strong Porings in the world too. Experience how strong they really are."
-		},
+		title = "探究波利的生活 (2)",
+		content = { summary = "打猎目标猎物", details = "世上也存在比较厉害的波利.去经历波利有多厉害吧." },
 		resource = {
-			[1] = { text = "Hunt Mastering once", count = 1 },
-			[2] = { text = "Hunt Deviling once", count = 1 },
-			[3] = { text = "Hunt Angeling once", count = 1 },
-			[4] = { text = "Hunt Archangeling once", count = 1 },
-			[5] = { text = "Hunt Ghostring once", count = 1 }
+			[1] = { text = "打猎波利之王1次", count = 1 },
+			[2] = { text = "打猎恶魔波利1次", count = 1 },
+			[3] = { text = "打猎天使波利1次", count = 1 },
+			[4] = { text = "打猎圣天使波利1次", count = 1 },
+			[5] = { text = "打猎幽灵波利1次", count = 1 }
 		},
 		reward = {},
-		score = 15
+		score = 20
 	},
 	[230203] = {
 		UI_Type = 1,
 		group = "BATTLE",
 		major = 3,
 		minor = 1,
-		title = "Poring Research (3)",
-		content = {
-			summary = "Hunt all targets",
-			details = "Some Porings have features that deviate significantly from the norm. It requires continuous research."
-		},
+		title = "探究波利的生活 (3)",
+		content = { summary = "打猎目标猎物", details = "跟一般的波利外形不一样的波利.需要持续的研究." },
 		resource = {
-			[1] = { text = "Hunt Metaling 5 times", count = 5 },
-			[2] = { text = "Hunt Heavy Metaling 5 times", count = 5 },
-			[3] = { text = "Hunt Magmaring 5 times", count = 5 }
+			[1] = { text = "打猎金属波利5次", count = 5 },
+			[2] = { text = "打猎重金属波利5次", count = 5 },
+			[3] = { text = "打猎岩浆波利5次", count = 5 }
 		},
 		reward = {},
 		score = 20
@@ -3964,14 +1170,9 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 6,
 		minor = 0,
-		title = "First Login after the introduction of Achievement Tasks",
-		content = {
-			summary = "First login after the introduction of the Achievements Task system.",
-			details = "Commemorate the first login after the introduction of the Achievement Task system."
-		},
-		resource = {
-			[1] = { text = "First login after the introduction of the Achievements Task system" }
-		},
+		title = "完成任务 初次登陆",
+		content = { summary = "完成任务 完成初次登陆.", details = "完成任务 纪念初次登陆." },
+		resource = { [1] = { text = "完成任务 完成初次登陆" } },
 		reward = {},
 		score = 10
 	},
@@ -3980,9 +1181,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 1",
-		content = { summary = "Reach Achievement Lv 1", details = "Reach Achievement Lv 1." },
-		resource = { [1] = { text = "Reach Achievement Lv 1" } },
+		title = "完成等级达到1",
+		content = { summary = "完成等级达到1", details = "完成等级达到1." },
+		resource = { [1] = { text = "完成等级达到1" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -3991,9 +1192,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 2",
-		content = { summary = "Reach Achievement Lv 2", details = "Reach Achievement Lv 2." },
-		resource = { [1] = { text = "Reach Achievement Lv 2" } },
+		title = "完成等级达到2",
+		content = { summary = "完成等级达到2", details = "完成等级达到2." },
+		resource = { [1] = { text = "完成等级达到2" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4002,9 +1203,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 3",
-		content = { summary = "Reach Achievement Lv 3", details = "Reach Achievement Lv 3." },
-		resource = { [1] = { text = "Reach Achievement Lv 3" } },
+		title = "完成等级达到3",
+		content = { summary = "完成等级达到3", details = "完成等级达到3." },
+		resource = { [1] = { text = "完成等级达到3" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4013,9 +1214,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 4",
-		content = { summary = "Reach Achievement Lv 4", details = "Reach Achievement Lv 4." },
-		resource = { [1] = { text = "Reach Achievement Lv 4" } },
+		title = "完成等级达到4",
+		content = { summary = "完成等级达到4", details = "完成等级达到4." },
+		resource = { [1] = { text = "完成等级达到4" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4024,9 +1225,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 5",
-		content = { summary = "Reach Achievement Lv 5", details = "Reach Achievement Lv 5." },
-		resource = { [1] = { text = "Reach Achievement Lv 5" } },
+		title = "完成等级达到5",
+		content = { summary = "完成等级达到5", details = "完成等级达到5." },
+		resource = { [1] = { text = "完成等级达到5" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4035,9 +1236,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 6",
-		content = { summary = "Reach Achievement Lv 6", details = "Reach Achievement Lv 6." },
-		resource = { [1] = { text = "Reach Achievement Lv 6" } },
+		title = "完成等级达到6",
+		content = { summary = "完成等级达到6", details = "完成等级达到6." },
+		resource = { [1] = { text = "完成等级达到6" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4046,9 +1247,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 7",
-		content = { summary = "Reach Achievement Lv 7", details = "Reach Achievement Lv 7." },
-		resource = { [1] = { text = "Reach Achievement Lv 7" } },
+		title = "完成等级达到7",
+		content = { summary = "完成等级达到7", details = "完成等级达到7." },
+		resource = { [1] = { text = "完成等级达到7" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4057,9 +1258,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 8",
-		content = { summary = "Reach Achievement Lv 8", details = "Reach Achievement Lv 8." },
-		resource = { [1] = { text = "Reach Achievement Lv 8" } },
+		title = "完成等级达到8",
+		content = { summary = "完成等级达到8", details = "完成等级达到8." },
+		resource = { [1] = { text = "完成等级达到8" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4068,9 +1269,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 9",
-		content = { summary = "Reach Achievement Lv 9", details = "Reach Achievement Lv 9." },
-		resource = { [1] = { text = "Reach Achievement Lv 9" } },
+		title = "完成等级达到9",
+		content = { summary = "完成等级达到9", details = "完成等级达到9." },
+		resource = { [1] = { text = "完成等级达到9" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4079,12 +1280,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 10",
-		content = {
-			summary = "Reach Achievement Lv 10",
-			details = "Reach Achievement Lv 10. You can receive a title for your efforts."
-		},
-		resource = { [1] = { text = "Reach Achievement Lv 10" } },
+		title = "完成等级达到9",
+		content = { summary = "完成等级达到10", details = "完成等级达到10. 作为努力奖可获得称号。" },
+		resource = { [1] = { text = "完成等级达到10" } },
 		reward = { title = 1023, buff = 12, item = 644 },
 		score = 10
 	},
@@ -4093,9 +1291,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 11",
-		content = { summary = "Reach Achievement Lv 11", details = "Reach Achievement Lv 11." },
-		resource = { [1] = { text = "Reach Achievement Lv 11" } },
+		title = "完成等级达到11",
+		content = { summary = "完成等级达到11", details = "完成等级达到11." },
+		resource = { [1] = { text = "完成等级达到11" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4104,9 +1302,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 12",
-		content = { summary = "Reach Achievement Lv 12", details = "Reach Achievement Lv 12." },
-		resource = { [1] = { text = "Reach Achievement Lv 12" } },
+		title = "完成等级达到11",
+		content = { summary = "完成等级达到12", details = "完成等级达到12." },
+		resource = { [1] = { text = "完成等级达到12" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4115,9 +1313,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 13",
-		content = { summary = "Reach Achievement Lv 13", details = "Reach Achievement Lv 13." },
-		resource = { [1] = { text = "Reach Achievement Lv 13" } },
+		title = "完成等级达到13",
+		content = { summary = "完成等级达到13", details = "完成等级达到13." },
+		resource = { [1] = { text = "完成等级达到13" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4126,9 +1324,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 14",
-		content = { summary = "Reach Achievement Lv 14", details = "Reach Achievement Lv 14." },
-		resource = { [1] = { text = "Reach Achievement Lv 14" } },
+		title = "完成等级达到14",
+		content = { summary = "完成等级达到14", details = "完成等级达到14." },
+		resource = { [1] = { text = "完成等级达到14" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4137,9 +1335,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 15",
-		content = { summary = "Reach Achievement Lv 15", details = "Reach Achievement Lv 15." },
-		resource = { [1] = { text = "Reach Achievement Lv 15" } },
+		title = "完成等级达到15",
+		content = { summary = "完成等级达到15", details = "完成等级达到15." },
+		resource = { [1] = { text = "完成等级达到15" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4148,9 +1346,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 16",
-		content = { summary = "Reach Achievement Lv 16", details = "Reach Achievement Lv 16." },
-		resource = { [1] = { text = "Reach Achievement Lv 16" } },
+		title = "完成等级达到16",
+		content = { summary = "完成等级达到16", details = "完成等级达到16." },
+		resource = { [1] = { text = "完成等级达到16" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4159,9 +1357,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 17",
-		content = { summary = "Reach Achievement Lv 17", details = "Reach Achievement Lv 17." },
-		resource = { [1] = { text = "Reach Achievement Lv 17" } },
+		title = "完成等级达到17",
+		content = { summary = "完成等级达到17", details = "完成等级达到17." },
+		resource = { [1] = { text = "完成等级达到17" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4170,9 +1368,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 18",
-		content = { summary = "Reach Achievement Lv 18", details = "Reach Achievement Lv 18." },
-		resource = { [1] = { text = "Reach Achievement Lv 18" } },
+		title = "完成等级达到18",
+		content = { summary = "完成等级达到18", details = "完成等级达到18." },
+		resource = { [1] = { text = "完成等级达到18" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4181,9 +1379,9 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 19",
-		content = { summary = "Reach Achievement Lv 19", details = "Reach Achievement Lv 19." },
-		resource = { [1] = { text = "Reach Achievement Lv 19" } },
+		title = "完成等级达到19",
+		content = { summary = "完成等级达到19", details = "完成等级达到19." },
+		resource = { [1] = { text = "完成等级达到19" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -4192,448 +1390,2034 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reach Achievement Lv 20",
-		content = {
-			summary = "Reach Achievement Lv 20",
-			details = "Reach Achievement Lv 20. You can receive a title for your efforts."
-		},
-		resource = { [1] = { text = "Reach Achievement Lv 20" } },
+		title = "完成等级达到20",
+		content = { summary = "完成等级达到20", details = "完成等级达到20. 作为努力奖可获得称号。" },
+		resource = { [1] = { text = "完成等级达到20" } },
 		reward = { title = 1024, buff = 12, item = 644 },
 		score = 10
 	},
-	[999999] = {
-		UI_Type = 0,
-		group = "GOAL_ACHIEVE",
-		major = 1,
-		minor = 3,
-		title = "Ragnarok's Got Talent",
-		content = { summary = "Win Ragnarok's Got Talent", details = "Win Ragnarok's Got Talent" },
-		resource = { [1] = { text = "Win Ragnarok's Got Talent" } },
-		reward = { title = 9999 },
-		score = 0
-	},
-	[999998] = {
+	[120001] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Deep under the sea near some ruins this treasure was lost." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999997] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Seized by the Orcs it was buried with their dead." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999996] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Uncovered by adventurers near some Pyramids." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999995] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Left for the dead. Near this castle." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999994] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Under the city of magic where the mushrooms roam." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999993] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "These undead archers put the pirates to rest." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999992] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "A very Vocal resident may guard this chest." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999991] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "It went down with the ship." } },
-		reward = { item = 667 },
-		score = 5
-	},
-	[999990] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Walk like a pirate day 2017",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667, title = 9998 },
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉北边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉北边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉北边周围区域的宝物" } },
+		reward = { item = 22876 },
 		score = 10
 	},
-	[999989] = {
-		UI_Type = 0,
-		group = "TAMING",
-		major = 4,
-		minor = 1,
-		title = "My Dearest Possession",
-		content = {
-			summary = "My Dearest Possession",
-			details = "Successfully reunited Ingrid with her lost love, Rupert."
-		},
-		resource = { [1] = { text = "Reunite Ingrid with her lost love, Rupert." } },
-		reward = { item = 19536, title = 9997 },
-		score = 5
-	},
-	[999988] = {
+	[120002] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Duffy's Pub Crawl",
-		content = {
-			summary = "Duffy's Pub Crawl",
-			details = "Joined the St. Paddy's Day Celebrations around Rune Midgard"
-		},
-		resource = { [1] = { text = "Check out all participating pubs during Duffy's Pub Crawl." } },
-		reward = { item = 19811, title = 9996 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉北边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉北边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999987] = {
+	[120003] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Joke and Tell Winner",
-		content = {
-			summary = "Joke and Tell Winner",
-			details = "Submitted a winning joke for the Joke and Tell Contest."
-		},
-		resource = { [1] = { text = "Submitted a winning joke for the Joke and Tell Contest." } },
-		reward = { title = 9995 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉北边区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉北边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999986] = {
+	[120004] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Poring Con Conquered",
-		content = {
-			summary = "Poring Con",
-			details = "Managed to get a badge to Poring Con and enjoyed the event to its fullest!"
-		},
-		resource = { [1] = { text = "Explore Poring Con." } },
-		reward = { item = 909, title = 9994 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉西边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉西边区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉西边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999985] = {
+	[120005] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Cosplay Costume 2018",
-		content = {
-			summary = "Cosplay Costume 2018",
-			details = "Winner of the Anniversary Event Cosplay Contest."
-		},
-		resource = { [1] = { text = "Winner of the Anniversary Event Cosplay Contest." } },
-		reward = { title = 9993 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉西边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉西边区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉西边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999984] = {
+	[120006] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "RO's Most Talented 2018",
-		content = {
-			summary = "RO's Most Talented  2018",
-			details = "Winner of the Ragnarok's Got Talent Contest."
-		},
-		resource = { [1] = { text = "Winner of the Ragnarok's Got Talent Contest." } },
-		reward = { title = 9992 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉东边的区域",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉东边区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉东边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999983] = {
+	[120007] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Drake's Revengers",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉南边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉南边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999982] = {
+	[120008] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Poringpocalypse",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉南边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉南边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999981] = {
+	[120009] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "The Bloody Roger",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉南边区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉南边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999980] = {
+	[120010] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Depth¡¯s Detail",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险普隆德拉南边区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现普隆德拉南边周围区域的宝物" },
+		resource = { [1] = { text = "发现普隆德拉南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999979] = {
+	[120011] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "The Dark Horde",
-		content = {
-			summary = "Discover Hidden Treasure",
-			details = "Discover lost pirate treasure all over the world."
-		},
-		resource = { [1] = { text = "Find all the pirate treasures" } },
-		reward = { item = 667 },
-		score = 5
+		major = 2,
+		minor = 0,
+		title = "探险吉芬东边区域",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬东边周围区域的宝物" },
+		resource = { [1] = { text = "发现吉芬东边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
 	},
-	[999978] = {
+	[120012] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
+		major = 2,
+		minor = 0,
+		title = "探险吉芬东南边的区域",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬西北边周围区域的宝物" },
+		resource = { [1] = { text = "发现吉芬西北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120013] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险吉芬西北边的区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬西北边周围区域的宝物" },
+		resource = { [1] = { text = "发现吉芬西北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120014] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险吉芬西北边的区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬西北边周围区域的宝物" },
+		resource = { [1] = { text = "发现吉芬西北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120015] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险吉芬西北边的区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬西北边周围区域的宝物" },
+		resource = { [1] = { text = "发现吉芬西北边周围区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120016] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险吉芬南边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬南边区域的宝物" },
+		resource = { [1] = { text = "发现吉芬南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120017] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险吉芬南边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬南边区域的宝物" },
+		resource = { [1] = { text = "发现吉芬南边区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120018] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120019] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120020] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120021] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120022] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120023] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险苏克拉特沙漠区域(6)",
+		content = { summary = "发现隐藏的宝物", details = "发现苏克拉特沙漠周围区域的宝物" },
+		resource = { [1] = { text = "发现苏克拉特沙漠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120024] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬西南方向区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬西南方向周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬西南方向周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120025] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬西南方向区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬西南方向周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬西南方向周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120026] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬西南方向区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬西南方向周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬西南方向周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120027] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬西南方向区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬西南方向周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬西南方向周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120028] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬东边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬东边周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬东边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120029] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬东边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬东边周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬东边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120030] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬东边区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬东边周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬东边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120031] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险斐扬东边区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬东边周围区域的宝物" },
+		resource = { [1] = { text = "发现斐扬东边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120032] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼北边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼北边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼北边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120033] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼北边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼北边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼北边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120034] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼北边区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼北边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼北边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120035] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼北边区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼北边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼北边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120036] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼北边区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼北边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼北边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120037] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120038] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120039] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120040] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120041] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120042] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险妙勒尼南边区域(6)",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼南边周围区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120043] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险艾尔帕兰南边区域",
+		content = { summary = "发现隐藏的宝物", details = "发现艾尔帕兰南边周围区域的宝物" },
+		resource = { [1] = { text = "发现艾尔帕兰南边周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120044] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120045] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120046] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120047] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120048] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120049] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(6)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120050] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(7)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120051] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "探险克魔岛区域(8)",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120052] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
 		minor = 1,
-		title = "The Guilded Galapagos",
-		content = {
-			summary = "Break Shoelace Sean's Curse",
-			details = "Defeated all 5 of the Guilded Galapagos to break Shoelance Sean's curse."
-		},
+		title = "探险国界检查站区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现国界检查站周围区域的宝物" },
+		resource = { [1] = { text = "发现国界检查站周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120053] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险国界检查站区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现国界检查站周围区域的宝物" },
+		resource = { [1] = { text = "发现国界检查站周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120054] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险 启 海伊洛别墅区域",
+		content = { summary = "发现隐藏的宝物", details = "发现 启 海伊洛 别墅周围区域的宝物" },
+		resource = { [1] = { text = "发现 启 海伊洛 别墅周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120055] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险尔迈斯瀑雷德区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现尔迈斯瀑雷德周围区域的宝物" },
+		resource = { [1] = { text = "发现尔迈斯瀑雷德周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120056] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险尔迈斯瀑雷德区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现尔迈斯瀑雷德周围区域的宝物" },
+		resource = { [1] = { text = "发现尔迈斯瀑雷德周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120057] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险尔迈斯瀑雷德区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现尔迈斯瀑雷德周围区域的宝物" },
+		resource = { [1] = { text = "发现尔迈斯瀑雷德周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120058] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险尔迈斯峡谷区域",
+		content = { summary = "发现隐藏的宝物", details = "发现尔迈斯峡谷周围区域的宝物" },
+		resource = { [1] = { text = "发现尔迈斯峡谷周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120059] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险 启 海伊洛学院区域",
+		content = { summary = "发现隐藏的宝物", details = "发现 启 海伊洛学院周围区域的宝物" },
+		resource = { [1] = { text = "发现 启 海伊洛学院周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120060] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险警备队露营地区域",
+		content = { summary = "发现隐藏的宝物", details = "发现警备队露营地周围区域的宝物" },
+		resource = { [1] = { text = "发现警备队露营地周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120061] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险朱诺区域",
+		content = { summary = "发现隐藏的宝物", details = "发现朱诺周围区域的宝物" },
+		resource = { [1] = { text = "发现朱诺周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120062] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险达纳托斯塔台前区域",
+		content = { summary = "发现隐藏的宝物", details = "发现达纳托斯塔台前周围区域宝物" },
+		resource = { [1] = { text = "发现达纳托斯塔台前周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120063] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险毁葛原野(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现毁葛周围区域的宝物" },
+		resource = { [1] = { text = "发现毁葛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120064] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险毁葛原野(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现毁葛周围区域的宝物" },
+		resource = { [1] = { text = "发现毁葛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120065] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险毁葛原野(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现毁葛周围区域的宝物" },
+		resource = { [1] = { text = "发现毁葛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120066] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险深渊湖水区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现深渊湖水周围区域的宝物" },
+		resource = { [1] = { text = "发现深渊湖水周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120067] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120068] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120069] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120070] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120071] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120072] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(6)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120073] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(7)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120074] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险艾音布罗克区域(8)",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音布罗克周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音布罗克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120075] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险里希塔乐镇区域 (1)",
+		content = { summary = "发现隐藏的宝物", details = "发现里希塔乐镇周围区域的宝物 " },
+		resource = { [1] = { text = "发现里希塔乐镇周围的宝物 " } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120076] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险里希塔乐镇区域 (2)",
+		content = { summary = "发现隐藏的宝物", details = "发现里希塔乐镇周围区域的宝物 " },
+		resource = { [1] = { text = "发现里希塔乐镇周围的宝物 " } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120077] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "探险里希塔乐镇区域 (3)",
+		content = { summary = "发现隐藏的宝物", details = "发现里希塔乐镇周围区域的宝物 " },
+		resource = { [1] = { text = "发现里希塔乐镇周围的宝物 " } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120078] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫阿巫敦拉平原区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫阿巫敦拉平原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫阿巫敦拉平原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120079] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫伊达平原区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫伊达平原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫伊达平原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120080] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫伊达平原区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫伊达平原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫伊达平原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120081] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫伊达平原区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫伊达平原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫伊达平原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120082] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫阿巫敦拉草原区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫阿巫敦拉草原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫阿巫敦拉草原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120083] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险拉赫阿巫敦拉草原区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫阿巫敦拉草原周围区域的宝物" },
+		resource = { [1] = { text = "发现拉赫阿巫敦拉草原周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120084] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险浦勒吐卢纳区域",
+		content = { summary = "发现隐藏的宝物", details = "发现浦勒吐卢纳周围区域的宝物" },
+		resource = { [1] = { text = "发现浦勒吐卢纳周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120085] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险菲音斯区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现菲音斯周围区域的宝物" },
+		resource = { [1] = { text = "发现菲音斯周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120086] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险菲音斯区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现菲音斯周围区域的宝物" },
+		resource = { [1] = { text = "发现菲音斯周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120087] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险菲音斯区域(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现菲音斯周围区域的宝物" },
+		resource = { [1] = { text = "发现菲音斯周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120088] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险菲音斯区域(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现菲音斯周围区域的宝物" },
+		resource = { [1] = { text = "发现菲音斯周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120089] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "探险菲音斯区域(5)",
+		content = { summary = "发现隐藏的宝物", details = "发现菲音斯周围区域的宝物" },
+		resource = { [1] = { text = "发现菲音斯周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120090] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险埃克拉珠区域",
+		content = { summary = "发现隐藏的宝物", details = "发现埃克拉珠周围区域的宝物" },
+		resource = { [1] = { text = "发现埃克拉珠周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120091] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险彩虹桥北部区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现彩虹桥北部周围区域的宝物" },
+		resource = { [1] = { text = "发现彩虹桥北部周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120092] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险彩虹桥南部区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现彩虹桥南部区域的宝物" },
+		resource = { [1] = { text = "发现彩虹桥南部区域的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120093] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险史波浪壮丽原野(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现史波浪壮丽周围区域的宝物" },
+		resource = { [1] = { text = "发现史波浪壮丽周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120094] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险史波浪壮丽原野(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现史波浪壮丽周围区域的宝物" },
+		resource = { [1] = { text = "发现史波浪壮丽周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120095] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险史波浪壮丽原野(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现史波浪壮丽周围区域的宝物" },
+		resource = { [1] = { text = "发现史波浪壮丽周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120096] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险魔怒克原野(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现魔怒克周围区域的宝物" },
+		resource = { [1] = { text = "发现魔怒克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120097] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险魔怒克原野(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现魔怒克周围区域的宝物" },
+		resource = { [1] = { text = "发现魔怒克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120098] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险魔怒克原野(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现魔怒克周围区域的宝物" },
+		resource = { [1] = { text = "发现魔怒克周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120099] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险卡米达山脚的区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现卡米达山脚周围区域的宝物" },
+		resource = { [1] = { text = "发现卡米达山脚周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120100] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "探险卡米达山脚的区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现卡米达山脚周围区域的宝物" },
+		resource = { [1] = { text = "发现卡米达山脚周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120101] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险天津町原野",
+		content = { summary = "发现隐藏的宝物", details = "发现天津町原野区域的宝物" },
+		resource = { [1] = { text = "发现天津町周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120102] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险昆仑原野",
+		content = { summary = "发现隐藏的宝物", details = "发现昆仑周围区域的宝物" },
+		resource = { [1] = { text = "发现昆仑周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120103] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险龙之城原野",
+		content = { summary = "发现隐藏的宝物", details = "发现龙之城周围区域的宝物" },
+		resource = { [1] = { text = "发现龙之城周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120104] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = " 探险哎哟泰雅 原野",
+		content = { summary = "发现隐藏的宝物", details = "发现哎哟泰雅周围区域的宝物" },
+		resource = { [1] = { text = "发现哎哟泰雅周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120105] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险莫斯科比亚 原野",
+		content = { summary = "发现隐藏的宝物", details = "发现莫斯科比亚周围的宝物" },
+		resource = { [1] = { text = "发现莫斯科比亚周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120106] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险巴西原野",
+		content = { summary = "发现隐藏的宝物", details = "发现巴西周围区域的宝物" },
+		resource = { [1] = { text = "发现巴西周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120107] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险德瓦他原野",
+		content = { summary = "发现隐藏的宝物", details = "发现德瓦他周围区域的宝物" },
+		resource = { [1] = { text = "发现德瓦他周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120108] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险马来区域(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现马来周围区域的宝物" },
+		resource = { [1] = { text = "发现马来周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120109] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "探险马来区域(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现马来周围区域的宝物" },
+		resource = { [1] = { text = "发现马来周围的宝物" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120110] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险修道院 地下副本",
+		content = { summary = "发现隐藏的宝物", details = "发现修道院地下周围区域的宝物" },
+		resource = { [1] = { text = "发现修道院地下周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120111] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险毁葛深渊副本",
+		content = { summary = "发现隐藏的宝物", details = "发现毁葛深渊周围区域的宝物" },
+		resource = { [1] = { text = "发现毁葛深渊周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120112] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险艾尔帕兰 钟塔",
+		content = { summary = "发现隐藏的宝物", details = "发现艾尔帕兰钟塔周围区域的宝物" },
+		resource = { [1] = { text = "发现艾尔帕兰钟塔周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120113] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险天津町迷宫",
+		content = { summary = "发现隐藏的宝物", details = "发现天津町原野区域的宝物" },
+		resource = { [1] = { text = "发现天津町周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120114] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险蚂蚁地狱密穴",
+		content = { summary = "发现隐藏的宝物", details = "发现蚂蚁地狱周围区域的宝物" },
+		resource = { [1] = { text = "发现蚂蚁地狱周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120115] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险哎哟泰雅副本",
+		content = { summary = "发现隐藏的宝物", details = "发现哎哟泰雅周围区域的宝物" },
+		resource = { [1] = { text = "发现哎哟泰雅周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120116] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险克魔岛副本",
+		content = { summary = "发现隐藏的宝物", details = "发现克魔岛周围区域的宝物" },
+		resource = { [1] = { text = "发现克魔岛周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120117] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险巴西副本",
+		content = { summary = "发现隐藏的宝物", details = "发现巴西周围区域的宝物" },
+		resource = { [1] = { text = "发现巴西周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120118] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险艾尔帕兰 钟塔",
+		content = { summary = "发现隐藏的宝物", details = "发现艾尔帕兰钟塔周围区域的宝物" },
+		resource = { [1] = { text = "发现艾尔帕兰钟塔周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120119] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险皇宫副本",
+		content = { summary = "发现隐藏的宝物", details = "发现皇宫周围区域的宝物" },
+		resource = { [1] = { text = "发现皇宫周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120120] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险斯卡勒伯熔岩副本",
+		content = { summary = "发现隐藏的宝物", details = "发现斯卡勒伯熔岩周围区域的宝物" },
+		resource = { [1] = { text = "发现斯卡勒伯熔岩周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120121] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险彩虹桥副本",
+		content = { summary = "发现隐藏的宝物", details = "发现彩虹桥周围区域的宝物" },
+		resource = { [1] = { text = "发现彩虹桥周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120122] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险艾音贝赫副本",
+		content = { summary = "发现隐藏的宝物", details = "发现艾音贝赫周围区域的宝物" },
+		resource = { [1] = { text = "发现艾音贝赫周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120123] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险吉芬地下密穴",
+		content = { summary = "发现隐藏的宝物", details = "发现吉芬地下周边密穴的宝物" },
+		resource = { [1] = { text = "发现吉芬地下周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120124] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险克雷斯特漢姆古城(1)",
+		content = { summary = "发现隐藏的宝物", details = "发现克雷斯特漢姆周边古城的宝物" },
+		resource = { [1] = { text = "发现克雷斯特漢姆周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120125] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险克雷斯特漢姆古城(2)",
+		content = { summary = "发现隐藏的宝物", details = "发现克雷斯特漢姆周边古城的宝物" },
+		resource = { [1] = { text = "发现克雷斯特漢姆周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120126] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险克雷斯特漢姆古城(3)",
+		content = { summary = "发现隐藏的宝物", details = "发现克雷斯特漢姆周边古城的宝物" },
+		resource = { [1] = { text = "发现克雷斯特漢姆周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120127] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险克雷斯特漢姆古城(4)",
+		content = { summary = "发现隐藏的宝物", details = "发现克雷斯特漢姆周边古城的宝物" },
+		resource = { [1] = { text = "发现克雷斯特漢姆周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120128] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险昆仑迷宫",
+		content = { summary = "发现隐藏的宝物", details = "发现昆仑周围区域的宝物" },
+		resource = { [1] = { text = "发现昆仑周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120129] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险拉赫副本",
+		content = { summary = "发现隐藏的宝物", details = "发现拉赫周边区域的宝物" },
+		resource = { [1] = { text = "发现拉赫周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120130] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险史芬克斯 密穴",
+		content = { summary = "发现隐藏的宝物", details = "发现史芬克斯周边密穴的宝物" },
+		resource = { [1] = { text = "发现史芬克斯周穴的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120131] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险依斯鲁得岛副本",
+		content = { summary = "发现隐藏的宝物", details = "发现依斯鲁得岛周边区域的宝物" },
+		resource = { [1] = { text = "发现依斯鲁得岛周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120132] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险机械娃娃工厂副本",
+		content = { summary = "发现隐藏的宝物", details = "发现机械娃娃周边区域的宝物" },
+		resource = { [1] = { text = "发现机械娃娃周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120133] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险活体实验研究所洞穴",
+		content = { summary = "发现隐藏的宝物", details = "发现活体实验研究所周边洞穴的宝物" },
+		resource = { [1] = { text = "发现活体实验研究所周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120134] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险龙之城迷宫",
+		content = { summary = "发现隐藏的宝物", details = "发现龙之城周围区域的宝物" },
+		resource = { [1] = { text = "发现龙之城周围的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120135] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险诺可罗德副本",
+		content = { summary = "发现隐藏的宝物", details = "发现诺可罗德周边区域的宝物" },
+		resource = { [1] = { text = "发现诺可罗德周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120136] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险妙勒尼废弃矿场副本",
+		content = { summary = "发现隐藏的宝物", details = "发现妙勒尼废弃矿场区域的宝物" },
+		resource = { [1] = { text = "发现妙勒尼废弃矿场的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120137] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险金字塔迷宫",
+		content = { summary = "发现隐藏的宝物", details = "发现金字塔周边区域的宝物" },
+		resource = { [1] = { text = "发现金字塔周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120138] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险兽人地下副本",
+		content = { summary = "发现隐藏的宝物", details = "发现兽人地下周边区域的宝物" },
+		resource = { [1] = { text = "发现兽人地下周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120139] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险斐扬迷宫",
+		content = { summary = "发现隐藏的宝物", details = "发现斐扬周边迷宫的宝物" },
+		resource = { [1] = { text = "发现斐扬周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120140] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险迷宫副本",
+		content = { summary = "发现隐藏的宝物", details = "发现迷宫周边区域的宝物" },
+		resource = { [1] = { text = "发现迷宫周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120141] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = " 探险地下水道副本",
+		content = { summary = "发现隐藏的宝物", details = "发现地下水道周边区域的宝物" },
+		resource = { [1] = { text = "发现地下水道周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120142] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险塔纳托斯塔副本",
+		content = { summary = "发现隐藏的宝物", details = "发现塔纳托斯塔周边区域的宝物" },
+		resource = { [1] = { text = "发现塔纳托斯塔 周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120143] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险托尔火山洞穴 ",
+		content = { summary = "发现隐藏的宝物", details = "发现托尔火山 周边区域的宝物" },
+		resource = { [1] = { text = "发现托尔火山 周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120144] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险沉没之船副本",
+		content = { summary = "发现隐藏的宝物", details = " 发现沉没之船周边区域的宝物" },
+		resource = { [1] = { text = "发现沉没之船周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120145] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险良龟村密穴",
+		content = { summary = "发现隐藏的宝物", details = "发现良龟村周边区域的宝物" },
+		resource = { [1] = { text = "发现良龟村周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120146] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "探险玩具洞穴",
+		content = { summary = "发现隐藏的宝物", details = "发现玩具周边区域的宝物" },
+		resource = { [1] = { text = "发现玩具周边的宝物" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[129001] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "普隆德拉的探险家",
+		content = { summary = "完成探险目标区域", details = "完成探险普隆德拉周边" },
 		resource = {
-			[1] = { text = "Defeat all 5 of the Guilded Galapagos to break Shoelance Sean's curse." }
+			[1] = { text = "探险普隆德拉北边区域(1) 完成", shortcut = 120001 },
+			[2] = { text = "探险普隆德拉北边区域(2) 完成", shortcut = 120002 },
+			[3] = { text = "探险普隆德拉北边区域(3) 完成", shortcut = 120003 },
+			[4] = { text = "探险普隆德拉西边区域(1) 完成", shortcut = 120004 },
+			[5] = { text = "探险普隆德拉西边区域(2) 完成", shortcut = 120005 },
+			[6] = { text = "探险普隆德拉东边的区域(1) 完成", shortcut = 120006 },
+			[7] = { text = "探险普隆德拉南边区域(1) 完成", shortcut = 120007 },
+			[8] = { text = "探险普隆德拉南边区域(2) 完成", shortcut = 120008 },
+			[9] = { text = "探险普隆德拉南边区域(3) 完成", shortcut = 120009 },
+			[10] = { text = "探险普隆德拉南边区域(4) 完成", shortcut = 120010 }
 		},
-		reward = { item = 31125 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999977] = {
+	[129002] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "A Supermundane Murder Mystery",
-		content = {
-			summary = "Solve the Halloween Candy Murder mystery",
-			details = "So that's what Bellua was doing all along..."
+		major = 2,
+		minor = 0,
+		title = "吉芬的探险家",
+		content = { summary = "完成探险目标区域", details = " 已完成探险吉芬周边" },
+		resource = {
+			[1] = { text = "探险吉芬东边区域(1) 完成", shortcut = 120011 },
+			[2] = { text = "探险吉芬东南边的区域(1) 完成", shortcut = 120012 },
+			[3] = { text = "探险吉芬西北边的区域(1) 完成", shortcut = 120013 },
+			[4] = { text = "探险吉芬西北边的区域(2) 完成", shortcut = 120014 },
+			[5] = { text = "探险吉芬西北边的区域(3) 完成", shortcut = 120015 },
+			[6] = { text = "探险吉芬南边区域(1) 完成", shortcut = 120016 },
+			[7] = { text = "探险吉芬南边区域(2) 完成", shortcut = 120017 }
 		},
-		resource = { [1] = { text = "Solve the Halloween Candy Murder mystery." } },
-		reward = { item = 31176, title = 9991 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999976] = {
+	[129003] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "The Truth",
-		content = { summary = "It's a mystery", details = "It's a mystery..." },
-		resource = { [1] = { text = "The truth is somewhere." } },
-		reward = { title = 9990 },
-		score = 5
-	},
-	[999975] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Frugal Fashionista",
-		content = {
-			summary = "Frugal Fashionista",
-			details = "Be an exceptionally frugal Fashionista."
+		major = 2,
+		minor = 0,
+		title = "苏克拉特沙漠的探险家",
+		content = { summary = "完成探险目标区域", details = "已完成苏克拉特沙漠周边的探险" },
+		resource = {
+			[1] = { text = "探险苏克拉特沙漠区域(1) 完成", shortcut = 120018 },
+			[2] = { text = "探险苏克拉特沙漠区域(2) 完成", shortcut = 120019 },
+			[3] = { text = "探险苏克拉特沙漠区域(3) 完成", shortcut = 120020 },
+			[4] = { text = "探险苏克拉特沙漠区域(4) 完成", shortcut = 120021 },
+			[5] = { text = "探险苏克拉特沙漠区域(5) 完成", shortcut = 120022 },
+			[6] = { text = "探险苏克拉特沙漠区域(6) 完成", shortcut = 120023 }
 		},
-		resource = { [1] = { text = "Be an exceptionally frugal Fashionista." } },
-		reward = { title = 9989 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999974] = {
+	[129004] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Festive Filmmaker",
-		content = { summary = "Festive Filmmaker", details = "Be an exceptionally Festive Filmmaker." },
-		resource = { [1] = { text = "Be an exceptionally Festive Filmmaker." } },
-		reward = { title = 9988 },
-		score = 5
-	},
-	[999973] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Curiosity Fed The Cat",
-		content = { summary = "Curiosity Fed The Cat", details = "Gave Curiosity Catto some monies!" },
-		resource = { [1] = { text = "Maybe give Curiosity Catto some monies?" } },
-		reward = { title = 9985 },
-		score = 5
-	},
-	[999972] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Knut's Nightmare",
-		content = {
-			summary = "Knut's Nightmare",
-			details = "Saved Knut! He should sleep well tonight."
+		major = 2,
+		minor = 0,
+		title = "斐扬的探险家",
+		content = { summary = "完成探险目标区域", details = "已完成斐扬周边的探险" },
+		resource = {
+			[1] = { text = "探险斐扬西南方向区域(1) 完成", shortcut = 120024 },
+			[2] = { text = "探险斐扬西南方向区域(2) 完成", shortcut = 120025 },
+			[3] = { text = "探险斐扬西南方向区域(3) 完成", shortcut = 120026 },
+			[4] = { text = "探险斐扬西南方向区域(4) 完成", shortcut = 120027 },
+			[5] = { text = "探险斐扬东边区域(1) 完成", shortcut = 120028 },
+			[6] = { text = "探险斐扬东边区域(2) 完成", shortcut = 120029 },
+			[7] = { text = "探险斐扬东边区域(3) 完成", shortcut = 120030 },
+			[8] = { text = "探险斐扬东边区域(4) 完成", shortcut = 120031 }
 		},
-		resource = { [1] = { text = "Step inside of Knut's dreams." } },
-		reward = { title = 9986 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999971] = {
+	[129005] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Duffy's Pub Crawl",
-		content = {
-			summary = "Duffy's Pub Crawl",
-			details = "Joined the St. Paddy's Day Celebrations around Rune Midgard"
+		major = 2,
+		minor = 0,
+		title = "妙勒尼山脉北部的探险家",
+		content = { summary = "完成探险目标区域", details = " 已完成妙勒尼山脉北部周边的探险" },
+		resource = {
+			[1] = { text = "探险妙勒尼北边区域(1) 完成", shortcut = 120032 },
+			[2] = { text = "探险妙勒尼北边区域(2) 完成", shortcut = 120033 },
+			[3] = { text = "探险妙勒尼北边区域(3) 完成", shortcut = 120034 },
+			[4] = { text = "探险妙勒尼北边区域(4) 完成", shortcut = 120035 },
+			[5] = { text = "探险妙勒尼北边区域(5) 完成", shortcut = 120036 }
 		},
-		resource = { [1] = { text = "Check out all participating pubs during Duffy's Pub Crawl." } },
-		reward = { item = 19811, title = 9987 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999970] = {
+	[129006] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "RagnaRock N Roll",
-		content = { summary = "RagnaRock N Roll", details = "Won the RagnaRock N Roll Song Contest" },
-		resource = { [1] = { text = "Won the RagnaRock N Roll Song Contest." } },
-		reward = { title = 9984 },
-		score = 5
-	},
-	[999969] = {
-		UI_Type = 0,
-		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "Ferus Faire",
-		content = {
-			summary = "Ferus Faire",
-			details = "Explored Ferus Faire to the fullest. Had Fun!"
+		major = 2,
+		minor = 0,
+		title = "妙勒尼山脉南部的探险家",
+		content = { summary = "完成探险目标区域", details = "完成妙勒尼山脉南部周边的探险" },
+		resource = {
+			[1] = { text = "探险妙勒尼南边区域(1) 完成", shortcut = 120037 },
+			[2] = { text = "探险妙勒尼南边区域(2) 完成", shortcut = 120038 },
+			[3] = { text = "探险妙勒尼南边区域(3) 完成", shortcut = 120039 },
+			[4] = { text = "探险妙勒尼南边区域(4) 完成", shortcut = 120040 },
+			[5] = { text = "探险妙勒尼南边区域(5) 完成", shortcut = 120041 },
+			[6] = { text = "探险妙勒尼南边区域(6) 完成", shortcut = 120042 },
+			[7] = { text = "探险艾尔帕兰南边区域(1) 完成", shortcut = 120043 }
 		},
-		resource = { [1] = { text = "Explore Ferus Faire! This is fun!" } },
-		reward = { title = 9983 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
 	},
-	[999967] = {
+	[129007] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
-		major = 4,
-		minor = 1,
-		title = "RO's Most Talented 2019",
-		content = {
-			summary = "RO's Most Talented  2019",
-			details = "Winner of the Ragnarok's Got Talent Contest."
+		major = 2,
+		minor = 0,
+		title = "克魔岛的探险家",
+		content = { summary = "完成探险目标区域", details = "完成克魔岛周边的探险" },
+		resource = {
+			[1] = { text = "探险克魔岛区域(1) 完成", shortcut = 120044 },
+			[2] = { text = "探险克魔岛区域(2) 完成", shortcut = 120045 },
+			[3] = { text = "探险克魔岛区域(3) 完成", shortcut = 120046 },
+			[4] = { text = "探险克魔岛区域(4) 完成", shortcut = 120047 },
+			[5] = { text = "探险克魔岛区域(5) 完成", shortcut = 120048 },
+			[6] = { text = "探险克魔岛区域(6) 完成", shortcut = 120049 },
+			[7] = { text = "探险克魔岛区域(7) 完成", shortcut = 120050 },
+			[8] = { text = "探险克魔岛区域(8) 完成", shortcut = 120051 }
 		},
-		resource = { [1] = { text = "Winner of the Ragnarok's Got Talent Contest." } },
-		reward = { title = 9982 },
-		score = 5
+		reward = { item = 644 },
+		score = 20
+	},
+	[129008] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "卢恩米德加兹的探险家",
+		content = { summary = "完成探险目标区域", details = "完成卢恩米德加兹周边的探险" },
+		resource = {
+			[1] = { text = "普隆德拉的探险家", shortcut = 129001 },
+			[2] = { text = "吉芬的探险家", shortcut = 129002 },
+			[3] = { text = "苏克拉特沙漠的探险家", shortcut = 129003 },
+			[4] = { text = "斐扬的探险家", shortcut = 129004 },
+			[5] = { text = "妙勒尼山脉北部的探险家", shortcut = 129005 },
+			[6] = { text = "妙勒尼山脉南部的探险家", shortcut = 129006 },
+			[7] = { text = "克魔岛的探险家", shortcut = 129007 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129009] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "朱诺的探险家",
+		content = { summary = "完成探险目标区域", details = "完成朱诺周边的探险" },
+		resource = {
+			[1] = { text = "探险国界检查站区域(1) 完成", shortcut = 120052 },
+			[2] = { text = "探险国界检查站区域(2) 完成", shortcut = 120053 },
+			[3] = { text = "探险 启 海伊洛别墅区域(1) 完成", shortcut = 120054 },
+			[4] = { text = "探险尔迈斯瀑雷德区域(1) 完成", shortcut = 120055 },
+			[5] = { text = "探险尔迈斯瀑雷德区域(2) 完成", shortcut = 120056 },
+			[6] = { text = "探险尔迈斯瀑雷德区域(3) 完成", shortcut = 120057 },
+			[7] = { text = "探险尔迈斯峡谷区域(1) 完成", shortcut = 120058 },
+			[8] = { text = "探险 启 海伊洛学院区域(1) 完成", shortcut = 120059 },
+			[9] = { text = "探险警备队露营地区域(1) 完成", shortcut = 120060 },
+			[10] = { text = "探险朱诺区域(1) 完成", shortcut = 120061 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129010] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "毁葛的 探险家",
+		content = { summary = "完成探险目标区域", details = "完成毁葛周边的探险" },
+		resource = {
+			[1] = { text = "探险达纳托斯塔台前区域(1) 完成", shortcut = 120062 },
+			[2] = { text = "探险毁葛原野(1) 完成", shortcut = 120063 },
+			[3] = { text = "探险毁葛原野(2) 完成", shortcut = 120064 },
+			[4] = { text = "探险毁葛原野(3) 完成", shortcut = 120065 },
+			[5] = { text = "探险深渊湖水区域(1) 完成", shortcut = 120066 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129011] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "艾音布罗克的探险家",
+		content = { summary = "完成探险目标区域", details = "完成艾音布罗克周边的探险" },
+		resource = {
+			[1] = { text = "探险艾音布罗克区域(1) 完成", shortcut = 120067 },
+			[2] = { text = "探险艾音布罗克区域(2) 完成", shortcut = 120068 },
+			[3] = { text = "探险艾音布罗克区域(3) 完成", shortcut = 120069 },
+			[4] = { text = "探险艾音布罗克区域(4) 完成", shortcut = 120070 },
+			[5] = { text = "探险艾音布罗克区域(5) 完成", shortcut = 120071 },
+			[6] = { text = "探险艾音布罗克区域(6) 完成", shortcut = 120072 },
+			[7] = { text = "探险艾音布罗克区域(7) 完成", shortcut = 120073 },
+			[8] = { text = "探险艾音布罗克区域(8) 完成", shortcut = 120074 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129012] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "里希塔乐镇的探险家",
+		content = { summary = "完成探险目标区域", details = "完成里希塔乐镇周边的探险" },
+		resource = {
+			[1] = { text = "探险里希塔乐镇区域 (1) 完成", shortcut = 120075 },
+			[2] = { text = "探险里希塔乐镇区域 (2) 完成", shortcut = 120076 },
+			[3] = { text = "探险里希塔乐镇区域 (3) 完成", shortcut = 120077 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129013] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "秀发兹发德探险家",
+		content = { summary = "完成探险目标区域", details = "完成秀发兹发德周边的探险" },
+		resource = {
+			[1] = { text = "朱诺的探险家", shortcut = 129009 },
+			[2] = { text = "毁葛的 探险家", shortcut = 129010 },
+			[3] = { text = "艾音布罗克的探险家", shortcut = 129011 },
+			[4] = { text = "里希塔乐镇的探险家", shortcut = 129012 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129014] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "拉赫的探险家",
+		content = { summary = "完成探险目标区域", details = "完成拉赫周边的探险" },
+		resource = {
+			[1] = { text = "探险拉赫阿巫敦拉平原区域(1) 完成", shortcut = 120078 },
+			[2] = { text = "探险拉赫伊达平原区域(1) 完成", shortcut = 120079 },
+			[3] = { text = "探险拉赫伊达平原区域(2) 完成", shortcut = 120080 },
+			[4] = { text = "探险拉赫伊达平原区域(3) 完成", shortcut = 120081 },
+			[5] = { text = "探险拉赫阿巫敦拉草原区域(1) 完成", shortcut = 120082 },
+			[6] = { text = "探险拉赫阿巫敦拉草原区域(2) 完成", shortcut = 120083 },
+			[7] = { text = "探险浦勒吐卢纳区域(1) 完成", shortcut = 120084 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129015] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "菲音斯的探险家",
+		content = { summary = "完成探险目标区域", details = "完成菲音斯周边的探险" },
+		resource = {
+			[1] = { text = "探险菲音斯区域(1) 完成", shortcut = 120085 },
+			[2] = { text = "探险菲音斯区域(2) 完成", shortcut = 120086 },
+			[3] = { text = "探险菲音斯区域(3) 完成", shortcut = 120087 },
+			[4] = { text = "探险菲音斯区域(4) 完成", shortcut = 120088 },
+			[5] = { text = "探险菲音斯区域(5) 完成", shortcut = 120089 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129016] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "阿卢纳贝兹的探险家",
+		content = { summary = "完成探险目标区域", details = "完成阿卢纳贝兹周边的探险" },
+		resource = { [1] = { text = "拉赫的探险家", shortcut = 129014 }, [2] = { text = "菲音斯的探险家", shortcut = 129015 } },
+		reward = { item = 617 },
+		score = 50
+	},
+	[129017] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "守护精灵的探险家",
+		content = { summary = "完成探险目标区域", details = "完成守护精灵周边的探险" },
+		resource = {
+			[1] = { text = "探险埃克拉珠区域(1) 完成", shortcut = 120090 },
+			[2] = { text = "探险彩虹桥北部区域(1) 完成", shortcut = 120091 },
+			[3] = { text = "探险彩虹桥南部区域(1) 完成", shortcut = 120092 },
+			[4] = { text = "探险史波浪壮丽原野(1) 完成", shortcut = 120093 },
+			[5] = { text = "探险史波浪壮丽原野(2) 完成", shortcut = 120094 },
+			[6] = { text = "探险史波浪壮丽原野(3) 完成", shortcut = 120095 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129018] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "魔怒克的探险家",
+		content = { summary = "完成探险目标区域", details = "完成魔怒克周边的探险" },
+		resource = {
+			[1] = { text = "探险魔怒克原野(1) 完成", shortcut = 120096 },
+			[2] = { text = "探险魔怒克原野(2) 完成", shortcut = 120097 },
+			[3] = { text = "探险魔怒克原野(3) 完成", shortcut = 120098 },
+			[4] = { text = "探险卡米达山脚的区域(1) 完成", shortcut = 120099 },
+			[5] = { text = "探险卡米达山脚的区域(2) 完成", shortcut = 120100 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129019] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "异界的探险家",
+		content = { summary = "完成探险目标区域", details = "完成异界周边的探险" },
+		resource = { [1] = { text = "守护精灵的探险家", shortcut = 129017 }, [2] = { text = "魔怒克的探险家", shortcut = 120918 } },
+		reward = { item = 617 },
+		score = 50
+	},
+	[129020] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "本地区域的",
+		content = { summary = "完成探险目标区域", details = "完成本地区域周边的探险" },
+		resource = {
+			[1] = { text = "探险天津町原野(1) 完成", shortcut = 120101 },
+			[2] = { text = "探险昆仑原野(1) 完成", shortcut = 120102 },
+			[3] = { text = "探险龙之城原野(1) 完成", shortcut = 120103 },
+			[4] = { text = " 探险哎哟泰雅 原野(1) 完成", shortcut = 120104 },
+			[5] = { text = "探险莫斯科比亚 原野(1) 完成", shortcut = 120105 },
+			[6] = { text = "探险巴西原野(1) 完成", shortcut = 120106 },
+			[7] = { text = "探险德瓦他原野(1) 完成", shortcut = 120107 },
+			[8] = { text = "探险马来区域(1) 完成", shortcut = 120108 },
+			[9] = { text = "探险马来区域(2) 完成", shortcut = 120109 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[110000] = {
+		UI_Type = 0,
+		group = "EAT",
+		major = 4,
+		minor = 0,
+		title = "这个时间段吃，是不会胖的 ",
+		content = { summary = "想吃宵夜的时间 半夜1点钟", details = "深夜给他拿过去大脚熊要求的食物" },
+		resource = { [1] = { text = "深夜给他拿过去大脚熊要求的食物" } },
+		reward = {},
+		score = 10
+	},
+	[110001] = {
+		UI_Type = 0,
+		group = "SEE",
+		major = 4,
+		minor = 0,
+		title = "这就是疯狂的粉丝",
+		content = { summary = "窥视疯狂粉丝的生活", details = "见聚集在维格纳家族的疯狂的粉丝" },
+		resource = {
+			[1] = { text = "大家闺秀" },
+			[2] = { text = "漂亮的妇女" },
+			[3] = { text = "有范的小姐" },
+			[4] = { text = "美丽的妻子" },
+			[5] = { text = "下边村的小伙子" },
+			[6] = { text = "行动力强的妇女" },
+			[7] = { text = "战斗力最强的小伙子" }
+		},
+		reward = {},
+		score = 10
+	},
+	[130000] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 4,
+		minor = 0,
+		title = "社交界出道",
+		content = { summary = "访问7个王室", details = "访问生活在东边和西边别宫的7个王室展现存在感吧." },
+		resource = {
+			[1] = { text = "访问海尔内家族跟他们交流" },
+			[2] = { text = "访问内里乌斯家族跟他们交流" },
+			[3] = { text = "访问博尔特家族跟他们交流" },
+			[4] = { text = "访问维格纳家族跟他们交流" },
+			[5] = { text = "访问雷哈特家族跟他们交流" },
+			[6] = { text = "访问吉尔伯格家族跟他们交流" },
+			[7] = { text = "访问雷根布尔格家族跟他们交流" }
+		},
+		reward = { title = 1034 },
+		score = 10
+	},
+	[170000] = {
+		UI_Type = 0,
+		group = "HEAR",
+		major = 4,
+		minor = 0,
+		title = "不是广播事故",
+		content = { summary = "欣赏宫廷乐师的秘密选曲", details = " 听普隆德拉 宫廷乐师欧林特推荐的秘密选曲" },
+		resource = { [1] = { text = "听普隆德拉 宫廷乐师欧林特推荐的秘密选曲" } },
+		reward = {},
+		score = 10
 	}
 }
